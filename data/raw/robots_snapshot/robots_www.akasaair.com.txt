@@ -1,0 +1,4 @@
+User-Agent: *
+Sitemap: https://www.akasaair.com/sitemap.xml
+Sitemap: https://www.akasaair.com/book-flight-tickets/sitemap_index.xml
+ 

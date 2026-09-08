@@ -1,0 +1,134 @@
+[
+ {
+  "code": "akasa",
+  "display_name": "Akasa Air",
+  "base_url": "https://www.akasaair.com",
+  "kind": "airline",
+  "tier": 1,
+  "enabled": true,
+  "exclusion_reason": null,
+  "audit_verdict": "scrape_ok",
+  "audited_on": "2026-09-04"
+ },
+ {
+  "code": "seed",
+  "display_name": "Seeded demo data",
+  "base_url": "-",
+  "kind": "official",
+  "tier": 1,
+  "enabled": false,
+  "exclusion_reason": "synthetic data for demo resilience and engine verification",
+  "audit_verdict": "scrape_ok",
+  "audited_on": "2026-09-08"
+ },
+ {
+  "code": "spicejet",
+  "display_name": "SpiceJet",
+  "base_url": "https://www.spicejet.com",
+  "kind": "airline",
+  "tier": 1,
+  "enabled": true,
+  "exclusion_reason": null,
+  "audit_verdict": "scrape_ok",
+  "audited_on": "2026-09-04"
+ },
+ {
+  "code": "airindia",
+  "display_name": "Air India",
+  "base_url": "https://www.airindia.com",
+  "kind": "airline",
+  "tier": 3,
+  "enabled": false,
+  "exclusion_reason": "robots.txt permits flight search, but the origin sits behind Akamai Bot Manager (ak_bmsc, bm_s, bm_so cookies observed on first response). Collecting fares would require defeating device fingerprinting. Excluded by the rule in SOURCE_AUDIT.md section 4: where a site actively enforces an anti-automation control, we do not scrape it even where robots.txt would allow us to.",
+  "audit_verdict": "do_not_scrape",
+  "audited_on": "2026-09-04"
+ },
+ {
+  "code": "yatra",
+  "display_name": "Yatra",
+  "base_url": "https://www.yatra.com",
+  "kind": "ota",
+  "tier": 3,
+  "enabled": false,
+  "exclusion_reason": "The '*' group is Allow:/ and does not disallow domestic flight search; the file even names ClaudeBot with Crawl-delay:5. But the origin is behind Akamai Bot Manager (ak_bmsc, ak_time). Same rule as Air India. Reconsider only via a licensed API.",
+  "audit_verdict": "do_not_scrape",
+  "audited_on": "2026-09-04"
+ },
+ {
+  "code": "airindiaexpress",
+  "display_name": "Air India Express",
+  "base_url": "https://www.airindiaexpress.com",
+  "kind": "airline",
+  "tier": 4,
+  "enabled": false,
+  "exclusion_reason": "robots.txt Disallow: /flight-availability -- the availability endpoint itself.",
+  "audit_verdict": "do_not_scrape",
+  "audited_on": "2026-09-04"
+ },
+ {
+  "code": "cleartrip",
+  "display_name": "Cleartrip",
+  "base_url": "https://www.cleartrip.com",
+  "kind": "ota",
+  "tier": 4,
+  "enabled": false,
+  "exclusion_reason": "robots.txt Disallow: /flights/search*, /m/flights/search*",
+  "audit_verdict": "do_not_scrape",
+  "audited_on": "2026-09-04"
+ },
+ {
+  "code": "easemytrip",
+  "display_name": "EaseMyTrip",
+  "base_url": "https://www.easemytrip.com",
+  "kind": "ota",
+  "tier": 4,
+  "enabled": false,
+  "exclusion_reason": "robots.txt Disallow: /flight-search/listing*",
+  "audit_verdict": "do_not_scrape",
+  "audited_on": "2026-09-04"
+ },
+ {
+  "code": "goibibo",
+  "display_name": "Goibibo",
+  "base_url": "https://www.goibibo.com",
+  "kind": "ota",
+  "tier": 4,
+  "enabled": false,
+  "exclusion_reason": "robots.txt Disallow: /flights/*?* -- every /flights/ URL with a query string. A fare search cannot be expressed without query parameters, so this is a complete prohibition.",
+  "audit_verdict": "do_not_scrape",
+  "audited_on": "2026-09-04"
+ },
+ {
+  "code": "indigo",
+  "display_name": "IndiGo",
+  "base_url": "https://www.goindigo.in",
+  "kind": "airline",
+  "tier": 4,
+  "enabled": false,
+  "exclusion_reason": "robots.txt Disallow: /booking/*, /book/*, /bookings/*, /search.html. Also Akamai Bot Manager.",
+  "audit_verdict": "do_not_scrape",
+  "audited_on": "2026-09-04"
+ },
+ {
+  "code": "ixigo",
+  "display_name": "Ixigo",
+  "base_url": "https://www.ixigo.com",
+  "kind": "ota",
+  "tier": 4,
+  "enabled": false,
+  "exclusion_reason": "robots.txt Disallow: /flights/search and /api/",
+  "audit_verdict": "do_not_scrape",
+  "audited_on": "2026-09-04"
+ },
+ {
+  "code": "makemytrip",
+  "display_name": "MakeMyTrip",
+  "base_url": "https://www.makemytrip.com",
+  "kind": "ota",
+  "tier": 4,
+  "enabled": false,
+  "exclusion_reason": "robots.txt Disallow: /flight/search*, /air/*, /flight/fis*. Also Akamai Bot Manager.",
+  "audit_verdict": "do_not_scrape",
+  "audited_on": "2026-09-04"
+ }
+]

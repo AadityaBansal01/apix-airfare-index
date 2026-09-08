@@ -1,0 +1,134 @@
+# Source registry. `tier` is set by docs/SOURCE_AUDIT.md and is not a free choice:
+# apix/sources/base.py refuses to instantiate any source above tier 2, so flipping
+# `enabled` on an excluded source fails loudly instead of quietly scraping it.
+#
+# tier 1  robots permits the search path AND no active bot management  -> scrape
+# tier 2  licensed commercial API                                      -> call
+# tier 3  robots would permit, but active bot management               -> excluded
+# tier 4  robots forbids the search path                               -> excluded
+
+audit_date: 2026-09-04
+evidence_dir: data/raw/robots_snapshot
+
+defaults:
+  min_delay_seconds: 6.0
+  jitter_seconds: 2.0
+  max_concurrent_per_origin: 1
+  identity_mode: identified      # identified | rotating -- see apix/net/identity.py
+  fail_closed_on_robots_error: true
+
+sources:
+  - code: akasa
+    display_name: Akasa Air
+    kind: airline
+    base_url: https://www.akasaair.com
+    tier: 1
+    enabled: true
+    audit_verdict: scrape_ok
+    min_delay_seconds: 8.0
+    evidence: "robots.txt has User-Agent:* and zero Disallow directives; no bot-manager cookies observed"
+    intent_denied_paths: ["/manage-booking", "/payment", "/checkout", "/my-account"]
+
+  - code: spicejet
+    display_name: SpiceJet
+    kind: airline
+    base_url: https://www.spicejet.com
+    tier: 1
+    enabled: true
+    audit_verdict: scrape_ok
+    min_delay_seconds: 8.0
+    evidence: "User-agent:* with empty Disallow (= allow all); no bot-manager cookies observed"
+    # These three appear in robots.txt as absolute URLs, which RFC 9309 makes
+    # unparseable, so a literal parser ignores them. We honour the intent anyway.
+    intent_denied_paths: ["/api/v1", "/public/", "/externalBooking"]
+
+  - code: airindia
+    display_name: Air India
+    kind: airline
+    base_url: https://www.airindia.com
+    tier: 3
+    enabled: false
+    exclusion_reason: >-
+      robots.txt permits flight search, but the origin sits behind Akamai Bot Manager
+      (ak_bmsc, bm_s, bm_so cookies observed on first response). Collecting fares would
+      require defeating device fingerprinting. Excluded by the rule in SOURCE_AUDIT.md
+      section 4: where a site actively enforces an anti-automation control, we do not
+      scrape it even where robots.txt would allow us to.
+    audit_verdict: do_not_scrape
+
+  - code: yatra
+    display_name: Yatra
+    kind: ota
+    base_url: https://www.yatra.com
+    tier: 3
+    enabled: false
+    exclusion_reason: >-
+      The '*' group is Allow:/ and does not disallow domestic flight search; the file even
+      names ClaudeBot with Crawl-delay:5. But the origin is behind Akamai Bot Manager
+      (ak_bmsc, ak_time). Same rule as Air India. Reconsider only via a licensed API.
+    audit_verdict: do_not_scrape
+
+  - code: indigo
+    display_name: IndiGo
+    kind: airline
+    base_url: https://www.goindigo.in
+    tier: 4
+    enabled: false
+    exclusion_reason: "robots.txt Disallow: /booking/*, /book/*, /bookings/*, /search.html. Also Akamai Bot Manager."
+    audit_verdict: do_not_scrape
+
+  - code: airindiaexpress
+    display_name: Air India Express
+    kind: airline
+    base_url: https://www.airindiaexpress.com
+    tier: 4
+    enabled: false
+    exclusion_reason: "robots.txt Disallow: /flight-availability -- the availability endpoint itself."
+    audit_verdict: do_not_scrape
+
+  - code: makemytrip
+    display_name: MakeMyTrip
+    kind: ota
+    base_url: https://www.makemytrip.com
+    tier: 4
+    enabled: false
+    exclusion_reason: "robots.txt Disallow: /flight/search*, /air/*, /flight/fis*. Also Akamai Bot Manager."
+    audit_verdict: do_not_scrape
+
+  - code: cleartrip
+    display_name: Cleartrip
+    kind: ota
+    base_url: https://www.cleartrip.com
+    tier: 4
+    enabled: false
+    exclusion_reason: "robots.txt Disallow: /flights/search*, /m/flights/search*"
+    audit_verdict: do_not_scrape
+
+  - code: easemytrip
+    display_name: EaseMyTrip
+    kind: ota
+    base_url: https://www.easemytrip.com
+    tier: 4
+    enabled: false
+    exclusion_reason: "robots.txt Disallow: /flight-search/listing*"
+    audit_verdict: do_not_scrape
+
+  - code: ixigo
+    display_name: Ixigo
+    kind: ota
+    base_url: https://www.ixigo.com
+    tier: 4
+    enabled: false
+    exclusion_reason: "robots.txt Disallow: /flights/search and /api/"
+    audit_verdict: do_not_scrape
+
+  - code: goibibo
+    display_name: Goibibo
+    kind: ota
+    base_url: https://www.goibibo.com
+    tier: 4
+    enabled: false
+    exclusion_reason: >-
+      robots.txt Disallow: /flights/*?* -- every /flights/ URL with a query string. A fare
+      search cannot be expressed without query parameters, so this is a complete prohibition.
+    audit_verdict: do_not_scrape

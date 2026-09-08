@@ -1,0 +1,253 @@
+# MakeMyTrip robots.txt
+# -----------------------------------------------------------------------------
+# Googlebot follows the "User-agent: *" block below. There is deliberately NO
+# "User-agent: Googlebot" group: a crawler reads only its single most-specific
+# matching group and does NOT inherit "*", so a Googlebot group would make
+# Google ignore every rule here. Keep Google on "*".
+# MAINTENANCE: do not add a "User-agent: Googlebot" group unless a genuinely
+# Google-only rule is required; if you must, that group has to repeat every
+# rule below, because groups are not additive.
+#
+# The bot-specific groups that remain (AdsBot, Mediapartners, GPTBot,
+# Google-Extended, PerplexityBot, OAI-SearchBot, google-hoteladsverifier) are
+# separate user-agent tokens with intentionally different rules and are kept.
+# -----------------------------------------------------------------------------
+
+User-agent: *
+
+# --- Hotels: booking funnel, search, details, rooms, reviews (domestic) ---
+# Broad "*" patterns below already cover the "/?", "?*", and "/*" variants that
+# existed as separate lines before; those redundant lines were removed.
+Disallow: /hotels/hotel-listing*
+Disallow: /hotels/hotel-details*
+Disallow: /hotels/hotel-booking*
+Disallow: /hotels/hotel-select-room*
+Disallow: /hotels/hotel-review*
+Disallow: /hotels/user-reviews*
+Disallow: /hotels/filter-sorter*
+
+# --- Hotels: booking funnel (international) ---
+Disallow: /hotels-international/hotel-listing*
+Disallow: /hotels-international/hotel-details*
+Disallow: /hotels-international/hotel-booking*
+Disallow: /hotels-international/pakistan/
+
+# --- Global funnel param blocks (catch date/currency/filter params on any path) ---
+# /*_uCurrency= supersedes the older /hotels/*.html/?_uCurrency* lines, now removed.
+Disallow: /*checkin=
+Disallow: /*checkout=
+Disallow: /*_uCurrency=
+Disallow: /*filterData=
+
+# --- Internal app / booking tokens ---
+# NOTE: tracking params intid= and CMP= are intentionally NOT blocked, so all
+# crawlers can read their rel=canonical and consolidate to the clean URL.
+# (This opens them for non-Google crawlers too, which previously blocked them.)
+Disallow: /*mmthtl*
+Disallow: /*manzdonotbook*
+
+# --- Third-party / review widget endpoints ---
+Disallow: */flyfishReviews?*type=TA
+Disallow: */TARatingReviewDesktop*
+Disallow: */ExpediaReview*
+
+# --- Flights ---
+Disallow: /flight/search*
+Disallow: /flight/fis*
+Disallow: /flights/get-fare-calendar-block.html
+Disallow: /air/*
+
+# --- Holidays / packages ---
+Disallow: /holidays/
+Disallow: /holidays/*
+Disallow: /holidays-india/search*
+Disallow: /holidays-international/search*
+Disallow: /holiday-packages/holiday-packages/
+Disallow: /holiday-packages/bestseller_holidays_ibt/
+Disallow: /holiday-packages/bestseller_holidays_obt/
+Disallow: /holiday-packages/*wkform.jsp
+Disallow: /holiday-packages/clubmed/
+
+# --- Bus / rail / cabs / car-rental ---
+Disallow: /mbus/rnw/busSeatBooking?*
+Disallow: /railways/pnrsearch/?*
+Disallow: /bus/search*
+Disallow: /railways/search*
+Disallow: /railways/listing*
+Disallow: /cabs/listing*
+Disallow: /cabs/review*
+Disallow: /cabsTripReview*
+Disallow: /cabsListing*
+Disallow: /car-rental-1/
+Disallow: /car-rental/*-online-booking
+
+# --- Activities (funnel steps; rest of /activities/ stays crawlable) ---
+Disallow: /activities/details*
+Disallow: /activities/listing*
+Disallow: /activities/landing*
+Disallow: /activities/review*
+Disallow: /activities/thankyou*
+Allow: /activities/*
+
+# --- Trip ideas (param) ---
+Disallow: /tripideas/places/*?pdtCtx*
+Disallow: /tripideas/*?pdtCtx*
+Disallow: /tripideas/attractions/*?pdtCtx*
+
+# --- Travel guides (non-public nodes) ---
+Disallow: /travel-guides/travel-guides/
+Disallow: /travel-guides/node/
+Disallow: /travel-guides/sites/
+
+# --- Blog (non-canonical language/search paths; keep test pages) ---
+Disallow: /blog/en/*
+Disallow: /blog/hi/*
+Disallow: /blog/search/site/*
+Allow: /blog/*test*
+
+# --- Misc utility / internal / test paths ---
+# /pwa/* covers /pwa/hlp/v3/login and /*mmthtl* covers /mmthtl/*; those
+# narrower duplicate lines were removed.
+Disallow: /thankyou/*
+Disallow: /backbutton*
+Disallow: /website/
+Disallow: /us_home/
+Disallow: /itinerary/
+Disallow: /promotion/
+Disallow: /promos/*
+Disallow: /pwa/*
+Disallow: /myrabot/*
+Disallow: /test*
+Disallow: /support/popups/popupex.htm
+Disallow: /gift-cards/details/
+
+# --- Explicit allows (override broader patterns where needed) ---
+Allow: /.well-known/assetlinks.json
+Allow: /.well-known/webauthn
+Allow: /.well-known/openai-apps-challenge
+Allow: /gift-cards/gift/
+Allow: /gift-cards/wedding-gift/
+Allow: /gift-cards/anniversary-gift/
+Allow: /gift-cards/birthday-gift/
+Allow: /gift-cards/diwali-gift/
+Allow: /gift-cards/valentines-gift/
+Allow: /gift-cards/farewell-gift/
+Allow: /hotels-international/azerbaijan/
+Allow: /hotels-international/turkey/
+Allow: /hotels-international/hotels-in-turkey.html
+
+# =============================================================================
+# Bot-specific groups (unchanged) - separate tokens, kept intentionally.
+# =============================================================================
+
+User-agent: google-hoteladsverifier
+Disallow:
+
+User-agent: Meta-WebIndexer
+Disallow: /cabs/listing*
+Disallow: /cabs/review*
+Disallow: /cabsTripReview*
+Disallow: /cabsListing*
+
+User-agent: Meta-ExternalAgent
+Disallow: /cabs/listing*
+Disallow: /cabs/review*
+Disallow: /cabsTripReview*
+Disallow: /cabsListing*
+
+# AdsBot deliberately ALLOWS the funnel so ad landing-page quality checks can
+# reach those pages. Do not "fix" this to match the * block.
+User-agent: AdsBot-Google
+User-agent: AdsBot-Google-Mobile-Apps
+Allow: /mmthtl/*
+Allow: /air/*
+Allow: /hotels/hotel-listing/*
+Allow: /hotels/hotel-details/*
+Allow: /hotels/hotel-listing*
+Allow: /hotels/hotel-details*
+Allow: /hotels/filter-sorter*
+Disallow: /tripideas/places/*?pdtCtx*
+Disallow: /tripideas/*?pdtCtx*
+Disallow: /tripideas/attractions/*?pdtCtx*
+
+User-agent: Mediapartners-Google
+Allow: *
+Disallow: /thankyou/*
+Disallow: /mbus/rnw/busSeatBooking?*
+Disallow: /tripideas/places/*?pdtCtx*
+Disallow: /tripideas/*?pdtCtx*
+Disallow: /tripideas/attractions/*?pdtCtx*
+
+User-agent: GPTBot
+Allow: *
+Disallow: /cabs/listing*
+Disallow: /cabs/review*
+Disallow: /cabsTripReview*
+Disallow: /cabsListing*
+Disallow: /tripideas/places/*?pdtCtx*
+Disallow: /tripideas/*?pdtCtx*
+Disallow: /tripideas/attractions/*?pdtCtx*
+
+User-agent: Google-Extended
+Allow: *
+Disallow: /mbus/rnw/busSeatBooking?*
+Disallow: /cabs/listing*
+Disallow: /cabs/review*
+Disallow: /cabsTripReview*
+Disallow: /cabsListing*
+Disallow: /tripideas/places/*?pdtCtx*
+Disallow: /tripideas/*?pdtCtx*
+Disallow: /tripideas/attractions/*?pdtCtx*
+
+User-agent: PerplexityBot
+Allow: *
+Disallow: /tripideas/places/*?pdtCtx*
+Disallow: /tripideas/*?pdtCtx*
+Disallow: /tripideas/attractions/*?pdtCtx*
+
+User-agent: OAI-SearchBot/1.0
+Allow: *
+Disallow: /mbus/rnw/busSeatBooking?*
+Disallow: /cabs/listing*
+Disallow: /cabs/review*
+Disallow: /cabsTripReview*
+Disallow: /cabsListing*
+Disallow: /tripideas/places/*?pdtCtx*
+Disallow: /tripideas/*?pdtCtx*
+Disallow: /tripideas/attractions/*?pdtCtx*
+
+Sitemap: https://www.makemytrip.com/holidays-india/sitemap-holidays.xml
+Sitemap: https://www.makemytrip.com/holidays-international/sitemap-holidays.xml
+Sitemap: https://www.makemytrip.com/flights/sitemap-flights.xml
+Sitemap: https://www.makemytrip.com/international-flights/sitemap-international-flights.xml
+Sitemap: https://www.makemytrip.com/railways/sitemap-railways.xml
+Sitemap: https://www.makemytrip.com/bus-tickets/sitemap-bus.xml
+Sitemap: https://www.makemytrip.com/coupons/coupons-sitemap.xml
+Sitemap: https://www.makemytrip.com/travel-guide/travel-guide-sitemap.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-activity-list.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-cruise.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-water-tour.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-air-tour.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-jeep-safari.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-observation-deck.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-boat-tour.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-theme-park.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-yacht.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-zipline.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-helicopter-ride.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-historical-places.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-desert-safari.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-amusement-parks.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-jungle-safari.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-water-sports.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-aquarium.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-museum.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-day-tour.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-skydiving.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-hot-air-balloon.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-zoo.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-safari.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-water-park.xml
+Sitemap: https://www.makemytrip.com/activities/sitemap-things-to-do.xml
+Sitemap: https://www.makemytrip.com/hotels/sitemap-hotels-indexes-new.xml
+Sitemap: https://www.makemytrip.com/hotels-international/sitemap-hotels-international-indexes-new.xml

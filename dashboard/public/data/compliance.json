@@ -1,0 +1,18 @@
+[
+ {
+  "source": "seed",
+  "tier": 1,
+  "audit_verdict": "scrape_ok",
+  "requests": 66,
+  "requests_sent": 66,
+  "robots_blocked": 0,
+  "intent_blocked": 0,
+  "avg_delay_s": 0.0,
+  "min_delay_s": null,
+  "max_delay_s": 0.0,
+  "ok": 66,
+  "errors": 0,
+  "first_request": "2026-09-08T11:04:00.841038+00:00",
+  "last_request": "2026-09-08T11:04:06.547663+00:00"
+ }
+]

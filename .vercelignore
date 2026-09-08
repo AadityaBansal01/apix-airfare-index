@@ -1,0 +1,10 @@
+data/raw/
+data/reference/dgca_city_pair_monthly.csv
+data/reference/dgca_carrier_monthly.csv
+dashboard/
+tests/
+docs/
+db/
+scripts/
+docker-compose.yml
+Makefile

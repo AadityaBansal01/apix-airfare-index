@@ -1,0 +1,221 @@
+User-agent: google-hoteladsverifier
+Disallow:
+
+User-agent: *
+Disallow: /hotels/*?pg=*
+Disallow: /bus/*?pg=*
+Disallow: /flights/*?mode=*
+Disallow: /hotels/*?PageSpeed*
+Disallow: /flights/*?PageSpeed*
+Disallow: /bus/*?PageSpeed*
+Disallow: /trains/*?PageSpeed*
+Disallow: /destinations/*?PageSpeed*
+Disallow: /destinations/*aggregate*
+Disallow: /ask/*?PageSpeed*
+Disallow: /cars/*?PageSpeed*
+Disallow: /routeplanner/*?PageSpeed*
+Allow: /hotels/getHotelPolicyDataV2/
+Allow: /bus/getsearch/
+Disallow: /cheap/flight-tickets/
+Disallow: /hotels/*?page=*
+Disallow: /accounts/login/
+Disallow: /eticket/
+Disallow: /bus/eticket/
+Disallow: /cab/eticket/
+Disallow: /holidays/eticket/
+Disallow: /hotels/eticket/
+Disallow: /cab/searchticket/
+Disallow: /hotels/searchticket/
+Disallow: /flight/searchticket/
+Disallow: /bus/searchticket/
+Disallow: /holidays/searchticket/
+Disallow: /travel-guide/pdf/
+Disallow: /holidays/holidays-searchresult/
+Disallow: /accounts/login/?next=/feedback/
+Disallow: /common/sendquery/
+Disallow: /common/emailpromo/
+Disallow: /common/searchchunk/
+Disallow: /searchticket/
+Disallow: /tguide2/
+Disallow: /hotels/search-product/
+Disallow: /hotels/find-hotels-in-*/
+Disallow: /hotels/find-sem-hotels-in-*
+Disallow: /hotels/detail/
+Disallow: /hotelsn/
+Disallow: /hotelsm/
+Disallow: /flights/new/
+Disallow: /multicity-flights/new/
+Disallow: /international-flights/new/
+Disallow: /bus-new/
+Disallow: /hotels/writeHotelReview/
+Disallow: /reviews/readReview/*
+Disallow: /gostays/search-product/
+Disallow: /gostays/find-hotels-in-*/
+Disallow: /gostays/detail/
+Disallow: /gostays/
+Disallow: /seo-renderer/*
+Disallow: /api/
+Disallow: /flight/customersupport/
+Disallow: /bus/customersupport/
+Disallow: /paymentcallback/
+Disallow: /hotels/hotel-booking/*
+Disallow: /https:/www.goibibo.com/reviews/writeReview/*
+Disallow: /reviews/writeReview/*
+Disallow: /go/fph/*
+Disallow: /hotels/managebooking/*
+Disallow: /flight/mytravelticket/*
+Disallow: /flights/air-*
+Disallow: /hotels/searchbooking/
+Disallow: /hotels/searchbookingv2/
+Disallow: /trains/results?*
+Disallow: /trains/app/*
+Disallow: /trains/booking
+Disallow: /activity/*
+Disallow: /trains/*?*
+Disallow: /flights/*?*
+Disallow: /hotels/*?*
+Disallow: /bus/*?*
+Disallow: /guest/
+Disallow: /god/*
+Disallow: /bus/-bus-booking/*
+Disallow: /flight-hotels/*
+Disallow: /hotels/convfeeinvoice/*
+Disallow: /indiaholidaypackages/*
+Disallow: /watsnew/*
+Disallow: /costacruise/*
+Disallow: /accounts/activate/*
+Disallow: /weekendsales/*
+Disallow: /promo/goibibo-promotional-code/*
+Disallow: /dishtvoffer/*
+Disallow: /mcpromocode/*
+Disallow: /christmas-offer/*
+Disallow: /christmas2013/*
+Disallow: /vipwelcome/*
+Disallow: /mahe-island-flights/*
+Disallow: /mob1/*
+Disallow: /27coupons/*
+Disallow: /flight_hotel-mumbai/*
+Disallow: /coupondekho/*
+Disallow: /coupondunia/*
+Disallow: /biggest_saletest/*
+Disallow: /indianholiday/westbengal-orissa/*
+Disallow: /royal_orchid/*
+Disallow: /facebookoffer/*
+Disallow: /couponzguru/*
+Disallow: /fern/*
+Disallow: /nasscom/*
+Disallow: /gociti100/*
+Disallow: /indianholiday/*
+Disallow: /citibank-10x-offer/*
+Disallow: /group-booking/*
+Disallow: /indiahoneymoonpackages/*
+Disallow: /reschedule-rule/*
+Disallow: /holiday-mktg/*
+Disallow: /flight/status/*
+Disallow: /common/privacy/*
+Disallow: /newmobile/*
+Disallow: /hotels/*5972658767320989955*
+Disallow: /gociti10/*
+Disallow: /trains/srp/*
+Disallow: /bus/*Airport*
+Disallow: /bus/bus_mweb*
+Disallow: /bus/*msrtc*
+Disallow: /bus/*shrinath*
+Disallow: /bus/*shreenath*
+Disallow: /trains/dsrp/*
+Disallow: /hotels/faq/*
+Disallow: /info/user-agreement/
+Disallow: /*/?hquery=
+Disallow: /hotelsnew/*
+Allow: /pagemaker/goCash-widget/*
+
+Disallow: /hotels/hotel-listing/*
+Disallow: /hotels/nhotel-booking/*
+Disallow: /hotels/hotel-details/*
+Disallow:/hotels-international/hotel-listing/*
+Disallow:/hotels-international/nhotel-booking/*?
+Disallow: /hotels-international/find-hotels-in-*/
+Disallow: /hotels-international/find-sem-hotels-in-*
+Disallow:/hotels-international/hotel-details/*
+
+Disallow: /hotels/hotel-listing*
+Disallow: /hotels/hotel-details*
+Disallow:/hotels/nhotel-booking*
+Disallow:/hotels/meta/*
+Disallow:/hotels-international/hotel-listing*
+Disallow:/hotels-international/nhotel-booking*
+Disallow:/hotels-international/hotel-details*
+Disallow:/hotels-international/meta/*
+Disallow:/hotels-international/*karachi*
+Disallow:/hotels-international/*lahore*
+Disallow:/hotels-international/*islamabad*
+Disallow:/hotels-international/*bahawalpur*
+Disallow:/hotels-international/*peshawar*
+Disallow:/hotels-international/*sialkot*
+Disallow:/hotels-international/*quetta*
+Disallow:/hotels-international/*rann-of-kutch*
+Disallow:/hotels-international/*sukkur*
+Disallow:/hotels-international/*makran*
+Disallow:/hotels-international/*multan*
+Disallow:/hotels-international/*panjgur*
+Disallow:/hotels-international/*dalbandin*
+Disallow:/hotels-international/*turbat*
+Disallow:/hotels-international/*gwadar*
+Disallow:/hotels-international/*rahimyarkhan*
+Disallow:/hotels-international/*chitral*
+Disallow:/hotels-international/*mohenjodaro*
+Disallow:/hotels-international/*dera-ghazi-khan*
+Disallow:/hotels-international/*zhob*
+Allow: /sitemap-https/*.xml
+Allow: /sitemap-https/*.xml?*
+Allow: /sitemap-https/*.xml/?*
+Allow: /sitemap-https/*
+
+User-agent: Googlebot
+Disallow: /hotels/hotel-listing*
+Disallow: /hotels/hotel-details*
+Disallow: /hotels/nhotel-booking*
+Disallow: /hotels-international/hotel-listing*
+Disallow: /hotels-international/nhotel-booking*
+Disallow: /hotels-international/hotel-details*
+Disallow: /*checkin=
+Disallow: /*checkout=
+Disallow: /*filterData=
+Disallow: /hotels/hotel-booking*
+
+User-agent: GPTBot
+Allow: *
+
+User-agent: PerplexityBot
+Allow:*
+
+User-agent: Google-Extended
+Allow: *
+Disallow: /trains/results?*
+Disallow: /trains/app/*
+Disallow: /trains/booking
+Disallow: /trains/*?*
+Disallow: /trains/dsrp/*
+Disallow: /trains/*?PageSpeed*
+Disallow: /bus/*?pg=*
+Disallow: /bus/*?PageSpeed*
+Disallow: /bus/searchticket/
+Disallow: /bus/*?*
+Disallow: /bus/-bus-booking/*
+Disallow: /trains/srp/*
+Disallow: /bus/*Airport*
+Disallow: /bus/bus_mweb_route_operator_*
+Disallow: /bus/*msrtc*
+Disallow: /bus/*shrinath*
+Disallow: /bus/*shreenath*
+
+User-agent: Googlebot-Extended
+Allow: /sitemap-https/*.xml
+Allow: /sitemap-https/*.xml?*
+Allow: /sitemap-https/*.xml/?*
+Allow: /sitemap-https/*
+
+sitemap: https://www.goibibo.com/trains/sitemap.xml
+sitemap: https://www.goibibo.com/hotels/sitemap_gi-hotels-indexes-new.xml
+sitemap: https://www.goibibo.com/hotels-international/sitemap_gi-hotels-international-indexes-new.xml
+sitemap: https://www.goibibo.com/bus/sitemap.xml/

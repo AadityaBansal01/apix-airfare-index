@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.env
+venv/
+.venv/
+node_modules/
+dashboard/dist/
+data/raw/pages/
+*.log
+
+# machine-local, not part of the project
+.claude/settings.local.json
+.DS_Store

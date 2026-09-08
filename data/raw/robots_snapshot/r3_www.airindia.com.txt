@@ -1,0 +1,84 @@
+User-agent: *
+Disallow: /bin/ 
+Disallow: /content/dam/air-india/image/company-information/* 
+Disallow: /in/en/google-flight-booking.html 
+Disallow: /in/en/flying-returns/loyalty-redemption.html 
+Disallow: /in/en/javascript.void(0)
+
+
+User-agent: GPTBot
+Allow: *
+Disallow: /bin/ 
+Disallow: /content/dam/air-india/image/company-information/* 
+Disallow: /in/en/google-flight-booking.html 
+Disallow: /in/en/flying-returns/loyalty-redemption.html 
+Disallow: /in/en/javascript.void(0)
+
+User-agent: Google-Extended
+Allow: *
+Disallow: /bin/ 
+Disallow: /content/dam/air-india/image/company-information/* 
+Disallow: /in/en/google-flight-booking.html 
+Disallow: /in/en/flying-returns/loyalty-redemption.html 
+Disallow: /in/en/javascript.void(0)
+
+User-agent: ClaudeBot
+Allow: *
+Disallow: /bin/ 
+Disallow: /content/dam/air-india/image/company-information/* 
+Disallow: /in/en/google-flight-booking.html 
+Disallow: /in/en/flying-returns/loyalty-redemption.html 
+Disallow: /in/en/javascript.void(0)
+
+User-agent: PerplexityBot   
+Allow: *
+Disallow: /bin/ 
+Disallow: /content/dam/air-india/image/company-information/* 
+Disallow: /in/en/google-flight-booking.html 
+Disallow: /in/en/flying-returns/loyalty-redemption.html 
+Disallow: /in/en/javascript.void(0)
+
+User-agent: xAI-Bot   
+Allow: *
+Disallow: /bin/ 
+Disallow: /content/dam/air-india/image/company-information/* 
+Disallow: /in/en/google-flight-booking.html 
+Disallow: /in/en/flying-returns/loyalty-redemption.html 
+Disallow: /in/en/javascript.void(0)
+
+User-agent: DeepseekBot   
+Allow: *  
+Disallow: /bin/ 
+Disallow: /content/dam/air-india/image/company-information/* 
+Disallow: /in/en/google-flight-booking.html 
+Disallow: /in/en/flying-returns/loyalty-redemption.html 
+Disallow: /in/en/javascript.void(0)
+
+User-agent: CCBot
+Allow: *
+Disallow: /bin/ 
+Disallow: /content/dam/air-india/image/company-information/* 
+Disallow: /in/en/google-flight-booking.html 
+Disallow: /in/en/flying-returns/loyalty-redemption.html 
+Disallow: /in/en/javascript.void(0)
+
+Sitemap: https://www.airindia.com/in.sitemap.xml
+Sitemap: https://www.airindia.com/fr.sitemap.xml
+Sitemap: https://www.airindia.com/jp.sitemap.xml
+Sitemap: https://www.airindia.com/en/book-flights/sitemap_en.xml 
+Sitemap: https://www.airindia.com/en-ae/book-flights/sitemap_en-ae.xml
+Sitemap: https://www.airindia.com/en-au/book-flights/sitemap_en-au.xml
+Sitemap: https://www.airindia.com/en-ca/book-flights/sitemap_en-ca.xml
+Sitemap: https://www.airindia.com/en-de/book-flights/sitemap_en-de.xml
+Sitemap: https://www.airindia.com/en-dk/book-flights/sitemap_en-dk.xml
+Sitemap: https://www.airindia.com/en-fr/book-flights/sitemap_en-fr.xml
+Sitemap: https://www.airindia.com/en-gb/book-flights/sitemap_en-gb.xml
+Sitemap: https://www.airindia.com/en-us/book-flights/sitemap_en-us.xml
+Sitemap: https://www.airindia.com/en-sg/book-flights/sitemap_en-sg.xml
+Sitemap: https://www.airindia.com/en-se/book-flights/sitemap_en-se.xml
+Sitemap: https://www.airindia.com/en-sa/book-flights/sitemap_en-sa.xml
+Sitemap: https://www.airindia.com/en-qa/book-flights/sitemap_en-qa.xml
+Sitemap: https://www.airindia.com/en-nl/book-flights/sitemap_en-nl.xml
+Sitemap: https://www.airindia.com/en-jp/book-flights/sitemap_en-jp.xml
+Sitemap: https://www.airindia.com/en-it/book-flights/sitemap_en-it.xml
+Sitemap: https://www.airindia.com/en-in/book-flights/sitemap_en-in.xml

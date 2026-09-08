@@ -1,0 +1,9 @@
+origin,destination,route_code,passengers,weight,weight_ref_start,weight_ref_end,source,licence
+BLR,DEL,BLR-DEL,4879073,0.2072001,2025-06-01,2026-05-28,DGCA monthly domestic city-pair statistics,ODbL-1.0
+BOM,DEL,BOM-DEL,3751418,0.1593118,2025-06-01,2026-05-28,DGCA monthly domestic city-pair statistics,ODbL-1.0
+DEL,HYD,DEL-HYD,3095780,0.1314687,2025-06-01,2026-05-28,DGCA monthly domestic city-pair statistics,ODbL-1.0
+CCU,DEL,CCU-DEL,2866361,0.1217260,2025-06-01,2026-05-28,DGCA monthly domestic city-pair statistics,ODbL-1.0
+BLR,BOM,BLR-BOM,2310386,0.0981153,2025-06-01,2026-05-28,DGCA monthly domestic city-pair statistics,ODbL-1.0
+BLR,HYD,BLR-HYD,2251473,0.0956135,2025-06-01,2026-05-28,DGCA monthly domestic city-pair statistics,ODbL-1.0
+DEL,MAA,DEL-MAA,2221545,0.0943425,2025-06-01,2026-05-28,DGCA monthly domestic city-pair statistics,ODbL-1.0
+BLR,CCU,BLR-CCU,2171615,0.0922221,2025-06-01,2026-05-28,DGCA monthly domestic city-pair statistics,ODbL-1.0

@@ -1,0 +1,18 @@
+[
+ {
+  "start": "2026-08-21",
+  "end": "2026-08-22",
+  "direction": "spike",
+  "peak_date": "2026-08-21",
+  "peak_change_pct": 19.6088,
+  "peak_index_value": 123.0187,
+  "score": 7.1734,
+  "hypotheses": [
+   "no candidate identified; cause unknown"
+  ],
+  "days": [
+   "2026-08-21",
+   "2026-08-22"
+  ]
+ }
+]

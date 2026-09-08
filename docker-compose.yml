@@ -1,0 +1,27 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: apix-postgres
+    environment:
+      POSTGRES_USER: apix
+      POSTGRES_PASSWORD: apix
+      POSTGRES_DB: apix
+    ports: ["5433:5432"]
+    volumes:
+      - apix_pgdata:/var/lib/postgresql/data
+      # db/schema.sql is deliberately NOT mounted into
+      # /docker-entrypoint-initdb.d. Postgres runs init scripts against a
+      # temporary server, and `pg_isready` answers on that server before init
+      # has finished. `make schema` would then load the schema, `make reference`
+      # would populate it, and the still-running init script would drop and
+      # recreate it underneath them, taking the reference data with it.
+      #
+      # `make schema` is the single owner of schema loading. One explicit,
+      # ordered path beats two that race.
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U apix -d apix"]
+      interval: 3s
+      timeout: 5s
+      retries: 20
+volumes:
+  apix_pgdata:

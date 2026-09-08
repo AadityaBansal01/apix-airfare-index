@@ -1,0 +1,26 @@
+{
+ "weight_ref_start": "2025-06-01",
+ "weight_ref_end": "2026-05-31",
+ "source": "DGCA monthly domestic carrier statistics (ScheduledDomestic)",
+ "licence": "ODbL-1.0",
+ "total_domestic_passengers": 168259253,
+ "carrier_share": {
+  "IndiGo": 0.638924,
+  "Air India": 0.151647,
+  "Air India Express": 0.114967,
+  "Akasa Air": 0.052578,
+  "SpiceJet": 0.030334,
+  "Star Air": 0.005549,
+  "Alliance Air": 0.00349,
+  "Fly91": 0.002322,
+  "India One Air": 0.000166,
+  "Flybig": 2.4e-05,
+  "Blue Dart Aviation": 0.0,
+  "QuikJet Cargo": 0.0
+ },
+ "observable_carriers": [
+  "Akasa Air",
+  "SpiceJet"
+ ],
+ "observable_share": 0.082912
+}

@@ -1,0 +1,74 @@
+[
+ {
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "passengers": 4879073,
+  "weight": 0.2072001,
+  "weight_ref_start": "2025-06-01",
+  "weight_ref_end": "2026-05-31"
+ },
+ {
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "passengers": 3751418,
+  "weight": 0.1593118,
+  "weight_ref_start": "2025-06-01",
+  "weight_ref_end": "2026-05-31"
+ },
+ {
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "passengers": 3095780,
+  "weight": 0.1314687,
+  "weight_ref_start": "2025-06-01",
+  "weight_ref_end": "2026-05-31"
+ },
+ {
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "passengers": 2866361,
+  "weight": 0.121726,
+  "weight_ref_start": "2025-06-01",
+  "weight_ref_end": "2026-05-31"
+ },
+ {
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "passengers": 2310386,
+  "weight": 0.0981153,
+  "weight_ref_start": "2025-06-01",
+  "weight_ref_end": "2026-05-31"
+ },
+ {
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "passengers": 2251473,
+  "weight": 0.0956135,
+  "weight_ref_start": "2025-06-01",
+  "weight_ref_end": "2026-05-31"
+ },
+ {
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "passengers": 2221545,
+  "weight": 0.0943425,
+  "weight_ref_start": "2025-06-01",
+  "weight_ref_end": "2026-05-31"
+ },
+ {
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "passengers": 2171615,
+  "weight": 0.0922221,
+  "weight_ref_start": "2025-06-01",
+  "weight_ref_end": "2026-05-31"
+ }
+]

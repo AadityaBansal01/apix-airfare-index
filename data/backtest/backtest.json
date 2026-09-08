@@ -1,0 +1,105 @@
+{
+ "generated_at": "2026-09-05T22:52:26.176754+00:00",
+ "seeded": true,
+ "span": {
+  "start": "2026-07-01",
+  "end": "2026-09-04",
+  "n_days": 66,
+  "meets_30_day_requirement": true
+ },
+ "price_reference": "2026-07-01 to 2026-07-28",
+ "internal_validation": {
+  "passed": true,
+  "n_checks": 4,
+  "n_failed": 0,
+  "checks": [
+   {
+    "name": "base_period_is_100",
+    "passed": true,
+    "detail": "mean over the price reference period is 100.1639 (tolerance \u00b12.0)",
+    "value": 100.16386071428572,
+    "tolerance": 2.0
+   },
+   {
+    "name": "monthly_equals_mean_of_daily",
+    "passed": true,
+    "detail": "largest gap 0.000045 index points in 2026-08-01 (tolerance 0.0001)",
+    "value": 4.516129033049765e-05,
+    "tolerance": 0.0001
+   },
+   {
+    "name": "contributions_sum_to_headline",
+    "passed": true,
+    "detail": "contributions sum to 103.0839 against headline 103.0839, gap 0.000043",
+    "value": 4.3000000005122274e-05,
+    "tolerance": 0.001
+   },
+   {
+    "name": "every_value_reports_coverage",
+    "passed": true,
+    "detail": "66 published values, 0 without a valid coverage ratio",
+    "value": null,
+    "tolerance": null
+   }
+  ],
+  "robustness": [
+   {
+    "scenario": "equal",
+    "n": 66,
+    "first": 99.5323,
+    "last": 103.0839,
+    "min": 95.8259,
+    "max": 143.2178,
+    "mean": 103.275,
+    "max_gap_vs_baseline": 0.0,
+    "mean_gap_vs_baseline": 0.0
+   },
+   {
+    "scenario": "near_heavy",
+    "n": 66,
+    "first": 98.6956,
+    "last": 102.7474,
+    "min": 95.4504,
+    "max": 145.0365,
+    "mean": 103.2065,
+    "max_gap_vs_baseline": 2.6263,
+    "mean_gap_vs_baseline": 0.9184
+   },
+   {
+    "scenario": "advance_heavy",
+    "n": 66,
+    "first": 100.6275,
+    "last": 103.4059,
+    "min": 95.7172,
+    "max": 141.1116,
+    "mean": 103.3455,
+    "max_gap_vs_baseline": 2.4113,
+    "mean_gap_vs_baseline": 0.9411
+   }
+  ],
+  "benchmark": {
+   "n": 66,
+   "correlation_on_changes": 0.9483,
+   "max_divergence_points": 3.272,
+   "mean_divergence_points": 1.261,
+   "index_range": [
+    95.8259,
+    143.2178
+   ],
+   "naive_range": [
+    5471.6201,
+    8281.5158
+   ],
+   "note": "The naive series is an unweighted mean of observed fares, rebased. Divergence is what the weighting and the Jevons aggregation buy; if it were near zero the methodology would not be earning its complexity."
+  }
+ },
+ "external_validation": {
+  "available": false,
+  "n_observations": 0,
+  "note": "No DGCA reference fares loaded. No public route-wise monthly average-fare series was found: DGCA's Tariff Monitoring Unit checks 78 routes monthly as a regulatory function, and DGCA's monthly publications carry traffic and load factor, not fares. Load any reference you do obtain with scripts/load_dgca_fares.py and this comparison runs automatically."
+ },
+ "coverage": {
+  "basket_coverage_latest": 1.0,
+  "observed_pax_share_latest": 0.0829
+ }
+}
