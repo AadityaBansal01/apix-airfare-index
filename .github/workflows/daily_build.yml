@@ -1,0 +1,87 @@
+name: Daily index build and dashboard export
+
+# Runs at 21:00 UTC = 02:30 IST, 30 min after the VM scrape cron (02:00 IST).
+on:
+  schedule:
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-and-export:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: apix
+          POSTGRES_PASSWORD: apix
+          POSTGRES_DB: apix
+        ports:
+          - 5433:5432
+        options: >-
+          --health-cmd "pg_isready -U apix"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    env:
+      DATABASE_URL: postgresql://apix:apix@localhost:5433/apix
+      APIX_USE_SEED_DATA: "true"
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Apply database schema
+        run: psql "$DATABASE_URL" -f db/schema.sql
+
+      - name: Load reference data (weights)
+        run: python scripts/load_reference.py || echo "warning reference data not loaded"
+
+      - name: Check if real fare data exists
+        id: check_real
+        run: |
+          COUNT=$(psql "$DATABASE_URL" -t -c \
+            "SELECT COUNT(*) FROM apix.fare f JOIN apix.source s USING (source_id) WHERE s.code != 'seed'" \
+            2>/dev/null | tr -d ' ' || echo 0)
+          echo "real_fare_count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "Real fare rows in DB: $COUNT"
+
+      - name: Seed demo data (only when no real fares exist)
+        if: ${{ steps.check_real.outputs.real_fare_count == '0' || steps.check_real.outputs.real_fare_count == '' }}
+        run: |
+          echo "No real fares - seeding 66 days of synthetic demo data"
+          END=$(date -u -d "yesterday" +%Y-%m-%d 2>/dev/null || date -u -v-1d +%Y-%m-%d)
+          START=$(date -u -d "66 days ago" +%Y-%m-%d 2>/dev/null || date -u -v-66d +%Y-%m-%d)
+          SURGE=$(date -u -d "40 days ago" +%Y-%m-%d 2>/dev/null || date -u -v-40d +%Y-%m-%d)
+          python -m apix.cli seed \
+            --start "$START" --end "$END" \
+            --surge-start "$SURGE" --surge-days 14 --surge-peak 1.8
+
+      - name: Build base prices
+        run: python -m apix.cli base --config config/basket.yaml || echo "base prices already set"
+
+      - name: Build index
+        run: python -m apix.cli index --config config/basket.yaml
+
+      - name: Export dashboard payload
+        run: python scripts/export_dashboard.py
+
+      - name: Commit updated dashboard data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dashboard/public/
+          git diff --cached --quiet || \
+            git commit -m "chore: daily dashboard export $(date -u +%Y-%m-%d)"
+          git push

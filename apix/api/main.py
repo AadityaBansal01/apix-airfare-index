@@ -21,7 +21,7 @@ from apix.api.deps import (
     read_one,
 )
 from apix.api.routers import analytics, compliance, index, reference
-from apix.api.schemas import HealthResponse
+from apix.api.schemas import HealthResponse, ScrapeHealthResponse, ScrapeRunSummary
 
 log = logging.getLogger(__name__)
 
@@ -119,6 +119,7 @@ def root() -> dict:
             "methodology": "/v1/methodology",
             "compliance": "/v1/compliance",
             "health": "/health",
+            "scrape_health": "/health/scrape",
         },
     }
 
@@ -142,4 +143,104 @@ def health() -> HealthResponse:
         seeded_mode=is_seeded(),
         latest_index_date=latest_date,
         version=API_VERSION,
+    )
+
+
+@app.get("/health/scrape", response_model=ScrapeHealthResponse, tags=["service"],
+         summary="Scrape pipeline health — real vs synthetic data")
+def health_scrape() -> ScrapeHealthResponse:
+    """Is the index built on real fares or synthetic demo data?
+
+    The key field is `status`:
+    - `live`      — at least one real fare has been collected from a live airline.
+    - `synthetic` — fares exist but all are from the seeded demo generator.
+    - `no_data`   — the database is empty or unreachable.
+
+    `days_of_real_data` tells you how long the live run has been going.
+    Reaching the 30-day minimum the problem statement requires takes about
+    four weeks of daily scheduled scrapes.
+    """
+    import yaml
+    from apix.settings import REPO_ROOT
+
+    # -- enabled sources from config ----------------------------------------
+    try:
+        src_cfg = yaml.safe_load(
+            (REPO_ROOT / "config/sources.yaml").read_text())
+        enabled = [s["code"] for s in src_cfg.get("sources", [])
+                   if s.get("enabled") and s.get("tier", 4) <= 2]
+    except Exception:  # noqa: BLE001
+        enabled = []
+
+    # -- real-data counts ---------------------------------------------------
+    try:
+        real_row = read_one(
+            "SELECT COUNT(DISTINCT f.scrape_date) AS days, "
+            "MAX(f.scrape_date) AS last_date "
+            "FROM apix.fare f "
+            "JOIN apix.source s USING (source_id) "
+            "WHERE s.code != 'seed'")
+        days_real = int(real_row["days"]) if real_row and real_row["days"] else 0
+        last_real = real_row["last_date"] if real_row else None
+    except DatabaseUnavailable:
+        days_real = 0
+        last_real = None
+
+    # -- most recent collection run -----------------------------------------
+    last_run: ScrapeRunSummary | None = None
+    try:
+        run_row = read_one(
+            "SELECT run_id, scrape_date, mode, planned_cells, "
+            "ok_cells, failed_cells, quotes_written, finished_at "
+            "FROM apix.collection_run "
+            "ORDER BY run_id DESC LIMIT 1")
+        if run_row:
+            # A run is 'real' when its scrape_date has at least one non-seed fare.
+            real_check = read_one(
+                "SELECT 1 FROM apix.fare f "
+                "JOIN apix.source s USING (source_id) "
+                "WHERE s.code != 'seed' AND f.scrape_date = %s LIMIT 1",
+                (run_row["scrape_date"],))
+            last_run = ScrapeRunSummary(
+                run_id=run_row["run_id"],
+                scrape_date=run_row["scrape_date"],
+                mode=run_row["mode"],
+                planned_cells=run_row["planned_cells"],
+                ok_cells=run_row["ok_cells"],
+                failed_cells=run_row["failed_cells"],
+                quotes_written=run_row["quotes_written"],
+                finished_at=run_row["finished_at"],
+                is_real=bool(real_check),
+            )
+    except DatabaseUnavailable:
+        pass
+
+    # -- observed pax share (from latest index value) ----------------------
+    pax_share: float | None = None
+    try:
+        pax_row = read_one(
+            "SELECT observed_pax_share FROM apix.apix_index "
+            "WHERE frequency = 'daily' AND observed_pax_share IS NOT NULL "
+            "ORDER BY index_date DESC LIMIT 1")
+        if pax_row and pax_row["observed_pax_share"] is not None:
+            pax_share = float(pax_row["observed_pax_share"])
+    except DatabaseUnavailable:
+        pass
+
+    # -- status string ------------------------------------------------------
+    if last_run is None and days_real == 0:
+        status = "no_data"
+    elif days_real > 0:
+        status = "live"
+    else:
+        status = "synthetic"
+
+    return ScrapeHealthResponse(
+        status=status,
+        seeded_mode=is_seeded(),
+        days_of_real_data=days_real,
+        last_real_scrape=last_real,
+        last_run=last_run,
+        enabled_sources=enabled,
+        observed_pax_share=pax_share,
     )
