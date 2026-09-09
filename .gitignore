@@ -6,6 +6,7 @@ __pycache__/
 venv/
 .venv/
 node_modules/
+dist/
 dashboard/dist/
 data/raw/pages/
 *.log

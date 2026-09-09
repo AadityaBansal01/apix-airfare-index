@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-09-09T10:20:19.558794+00:00",
+ "seeded": true,
+ "seeded_fare_rows": 30929,
+ "live_fare_rows": 0,
+ "first_index_date": "2026-07-01",
+ "last_index_date": "2026-09-04",
+ "observable_carriers": [
+  "Akasa Air",
+  "SpiceJet"
+ ],
+ "observable_share": 0.082912,
+ "carrier_share": {
+  "IndiGo": 0.638924,
+  "Air India": 0.151647,
+  "Air India Express": 0.114967,
+  "Akasa Air": 0.052578,
+  "SpiceJet": 0.030334,
+  "Star Air": 0.005549,
+  "Alliance Air": 0.00349,
+  "Fly91": 0.002322,
+  "India One Air": 0.000166,
+  "Flybig": 2.4e-05,
+  "Blue Dart Aviation": 0.0,
+  "QuikJet Cargo": 0.0
+ },
+ "weight_reference": {
+  "start": "2025-06-01",
+  "end": "2026-05-31",
+  "source": "DGCA monthly domestic carrier statistics (ScheduledDomestic)"
+ }
+}

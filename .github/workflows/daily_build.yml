@@ -81,7 +81,7 @@ jobs:
         run: |
           git config --global user.name "APIx Bot"
           git config --global user.email "bot@apix.example.com"
-          git add public/
+          git add public/ dashboard/public/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

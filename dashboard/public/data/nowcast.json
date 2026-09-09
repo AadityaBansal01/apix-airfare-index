@@ -1,0 +1,99 @@
+{
+ "n_observations": 66,
+ "season": 7,
+ "min_train": 21,
+ "scores": [
+  {
+   "model": "naive",
+   "horizon": 1,
+   "n_forecasts": 45,
+   "mae": 3.5313,
+   "rmse": 5.4489,
+   "mase": 0.506,
+   "is_baseline": true
+  },
+  {
+   "model": "seasonal_naive",
+   "horizon": 1,
+   "n_forecasts": 45,
+   "mae": 9.0124,
+   "rmse": 17.5644,
+   "mase": 1.2913,
+   "is_baseline": true
+  },
+  {
+   "model": "drift",
+   "horizon": 1,
+   "n_forecasts": 45,
+   "mae": 3.6075,
+   "rmse": 5.5053,
+   "mase": 0.5169,
+   "is_baseline": true
+  },
+  {
+   "model": "damped_trend",
+   "horizon": 1,
+   "n_forecasts": 45,
+   "mae": 3.7456,
+   "rmse": 5.393,
+   "mase": 0.5367,
+   "is_baseline": false
+  },
+  {
+   "model": "seasonal_damped_trend",
+   "horizon": 1,
+   "n_forecasts": 45,
+   "mae": 3.1488,
+   "rmse": 7.1075,
+   "mase": 0.4512,
+   "is_baseline": false
+  },
+  {
+   "model": "naive",
+   "horizon": 7,
+   "n_forecasts": 39,
+   "mae": 10.3214,
+   "rmse": 18.866,
+   "mase": 1.4789,
+   "is_baseline": true
+  },
+  {
+   "model": "seasonal_naive",
+   "horizon": 7,
+   "n_forecasts": 39,
+   "mae": 10.3214,
+   "rmse": 18.866,
+   "mase": 1.4789,
+   "is_baseline": true
+  },
+  {
+   "model": "drift",
+   "horizon": 7,
+   "n_forecasts": 39,
+   "mae": 11.1711,
+   "rmse": 20.1485,
+   "mase": 1.6006,
+   "is_baseline": true
+  },
+  {
+   "model": "damped_trend",
+   "horizon": 7,
+   "n_forecasts": 39,
+   "mae": 13.6299,
+   "rmse": 23.9325,
+   "mase": 1.9529,
+   "is_baseline": false
+  },
+  {
+   "model": "seasonal_damped_trend",
+   "horizon": 7,
+   "n_forecasts": 39,
+   "mae": 14.421,
+   "rmse": 29.746,
+   "mase": 2.0663,
+   "is_baseline": false
+  }
+ ],
+ "recommendation": "NO NOWCAST MODEL IS RECOMMENDED. Publish the baseline instead. At h=1, seasonal_damped_trend (MASE 0.451) beats the best baseline naive (MASE 0.506) by 10.8% over 45 rolling-origin forecasts. BUT its RMSE is worse (7.11 against 5.45), so it is usually closer and occasionally much further out \u2014 a heavier error tail, and the tail falls at turning points, which is when anyone actually reads a nowcast. Not recommended for publication on a 45-forecast sample; report the baseline and keep the model under review. At h=7, no model beats the baseline: best model damped_trend scores MASE 1.953 against naive at 1.479. The extra machinery buys nothing. Use naive and say so.",
+ "warnings": []
+}

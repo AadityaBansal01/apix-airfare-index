@@ -1,0 +1,32 @@
+[
+ {
+  "ref_month": "2026-07-01",
+  "n_days": 31,
+  "min_index": 95.9514,
+  "max_index": 103.8994,
+  "mean_index": 100.274,
+  "sd_index": 2.5679,
+  "range_index": 7.948,
+  "sampled_on_15th": 98.9087
+ },
+ {
+  "ref_month": "2026-08-01",
+  "n_days": 31,
+  "min_index": 96.0175,
+  "max_index": 142.5861,
+  "mean_index": 106.3694,
+  "sd_index": 13.5898,
+  "range_index": 46.5686,
+  "sampled_on_15th": 102.0704
+ },
+ {
+  "ref_month": "2026-09-01",
+  "n_days": 4,
+  "min_index": 97.5179,
+  "max_index": 103.8123,
+  "mean_index": 100.7815,
+  "sd_index": 2.9373,
+  "range_index": 6.2944,
+  "sampled_on_15th": 102.6328
+ }
+]

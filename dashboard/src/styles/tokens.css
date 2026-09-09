@@ -1,0 +1,116 @@
+/* APIx design tokens — travel-booking visual language.
+ *
+ * WHY THIS LOOKS LIKE A BOOKING SITE
+ * ----------------------------------
+ * The people this has to land with are not price statisticians. They are judges,
+ * officials and journalists who have all bought a flight online, and none of whom
+ * have read a CPI methodology note. Borrowing the interface grammar they already
+ * own — a from/to selector with a swap button, a fare calendar strip, a row of
+ * results with a big rupee figure on the right — means the page explains itself
+ * before anyone reads a word of it.
+ *
+ * What is NOT borrowed is the intent. There is no cart, no "Book now", no
+ * urgency copy, no seat-scarcity nudge. Every control selects what you are
+ * LOOKING at; none of them sells anything. A dark pattern rendered in a
+ * statistics dashboard would still be a dark pattern.
+ */
+:root {
+  /* --- surface ------------------------------------------------------- */
+  --bg:              #f2f4f7;   /* page ground */
+  --surface:         #ffffff;   /* cards */
+  --surface-sunk:    #f7f9fc;   /* wells, table stripes */
+  --surface-tint:    #eef4fd;   /* selected rows, soft blue fills */
+  --border:          #e3e8ef;
+  --border-strong:   #cbd5e1;
+
+  /* --- navy chrome ---------------------------------------------------- */
+  --navy:            #0a1f44;   /* header, footer */
+  --navy-2:          #14315f;   /* header gradient end */
+  --navy-3:          #1e4680;   /* dividers on dark */
+
+  /* --- primary blue --------------------------------------------------- */
+  --blue:            #0a72d8;
+  --blue-hover:      #0860b8;
+  --blue-soft:       #e3f0fd;
+  --blue-ring:       rgba(10, 114, 216, 0.18);
+
+  /* --- accent: the CTA gradient, saffron into deep orange -------------- */
+  --accent:          #f26a2e;
+  --accent-2:        #e8480f;
+  --accent-soft:     #fff0e8;
+
+  /* --- semantic: cheaper is green, dearer is red. Never the reverse. --- */
+  --down:            #14875a;   /* index below base / fare drop */
+  --down-soft:       #e6f5ee;
+  --up:              #c4321f;   /* index above base / fare rise */
+  --up-soft:         #fdecea;
+  --flat:            #64748b;
+  --warn:            #b45309;
+  --seeded:          #7c3aed;   /* synthetic-data badge. Never green, never blue. */
+
+  /* --- text ------------------------------------------------------------ */
+  --text:            #0f1e35;
+  --text-2:          #46566e;
+  --text-muted:      #7a8aa0;
+  --text-on-dark:    #ffffff;
+  --text-on-dark-2:  #a8bcd8;
+
+  /* --- data viz --------------------------------------------------------
+   * Diverging around 100, because a price index has a meaningful midpoint:
+   * the reference period. Sequential would hide that the scale has a centre.
+   */
+  --viz-below:       #14875a;
+  --viz-neutral:     #eef1f5;
+  --viz-above:       #c4321f;
+
+  --series-1:        #0a72d8;
+  --series-2:        #f26a2e;
+  --series-3:        #14875a;
+  --series-4:        #7c3aed;
+  --series-5:        #0891b2;
+  --series-6:        #c4321f;
+  --series-7:        #b45309;
+  --series-8:        #64748b;
+  /* The CPI overlay is the one dashed, muted line: it is context, not subject. */
+  --series-cpi:      #94a3b8;
+
+  /* --- geometry --------------------------------------------------------- */
+  --r-sm:   6px;
+  --r:      10px;
+  --r-lg:   16px;
+  --r-pill: 999px;
+
+  --gap-xs: 4px;
+  --gap-sm: 8px;
+  --gap:    16px;
+  --gap-lg: 24px;
+  --gap-xl: 36px;
+
+  --shadow-sm:   0 1px 3px rgba(15, 30, 53, 0.07);
+  --shadow:      0 2px 10px rgba(15, 30, 53, 0.08);
+  --shadow-lift: 0 8px 28px rgba(15, 30, 53, 0.14);
+  --shadow-panel:0 10px 40px rgba(10, 31, 68, 0.18);
+
+  --header-h: 60px;
+  --maxw: 1240px;
+
+  /* --- type ------------------------------------------------------------- */
+  --font: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  /* Tabular figures wherever an index value or a fare appears, so digits line
+     up column to column and a reader can scan a series vertically. */
+  --num-feat: "tnum" 1, "lnum" 1;
+
+  --fs-display: 40px;
+  --fs-h1:      24px;
+  --fs-h2:      17px;
+  --fs-body:    14px;
+  --fs-sm:      12.5px;
+  --fs-xs:      11.5px;
+  --fs-label:   11px;
+  --track-label: 0.07em;
+}
+
+.num {
+  font-feature-settings: var(--num-feat);
+  font-variant-numeric: tabular-nums lining-nums;
+}

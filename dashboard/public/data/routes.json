@@ -1,0 +1,6322 @@
+[
+ {
+  "index_date": "2026-07-01",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 99.1186,
+  "weight": 0.0981153,
+  "contribution": 9.725046
+ },
+ {
+  "index_date": "2026-07-01",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 101.0742,
+  "weight": 0.0922221,
+  "contribution": 9.321277
+ },
+ {
+  "index_date": "2026-07-01",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 98.9441,
+  "weight": 0.2072001,
+  "contribution": 20.501229
+ },
+ {
+  "index_date": "2026-07-01",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 98.3563,
+  "weight": 0.0956135,
+  "contribution": 9.404192
+ },
+ {
+  "index_date": "2026-07-01",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 101.7043,
+  "weight": 0.1593118,
+  "contribution": 16.202697
+ },
+ {
+  "index_date": "2026-07-01",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 98.9715,
+  "weight": 0.121726,
+  "contribution": 12.047408
+ },
+ {
+  "index_date": "2026-07-01",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 98.2498,
+  "weight": 0.1314687,
+  "contribution": 12.916768
+ },
+ {
+  "index_date": "2026-07-01",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 99.5438,
+  "weight": 0.0943425,
+  "contribution": 9.391215
+ },
+ {
+  "index_date": "2026-07-02",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 104.0604,
+  "weight": 0.0981153,
+  "contribution": 10.209916
+ },
+ {
+  "index_date": "2026-07-02",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 103.1903,
+  "weight": 0.0922221,
+  "contribution": 9.516426
+ },
+ {
+  "index_date": "2026-07-02",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 103.3625,
+  "weight": 0.2072001,
+  "contribution": 21.416712
+ },
+ {
+  "index_date": "2026-07-02",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 105.7113,
+  "weight": 0.0956135,
+  "contribution": 10.107426
+ },
+ {
+  "index_date": "2026-07-02",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 104.2353,
+  "weight": 0.1593118,
+  "contribution": 16.605916
+ },
+ {
+  "index_date": "2026-07-02",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 103.2647,
+  "weight": 0.121726,
+  "contribution": 12.570005
+ },
+ {
+  "index_date": "2026-07-02",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 102.3526,
+  "weight": 0.1314687,
+  "contribution": 13.45616
+ },
+ {
+  "index_date": "2026-07-02",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 104.593,
+  "weight": 0.0943425,
+  "contribution": 9.867567
+ },
+ {
+  "index_date": "2026-07-03",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 102.1342,
+  "weight": 0.0981153,
+  "contribution": 10.020926
+ },
+ {
+  "index_date": "2026-07-03",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 102.084,
+  "weight": 0.0922221,
+  "contribution": 9.414404
+ },
+ {
+  "index_date": "2026-07-03",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 102.8425,
+  "weight": 0.2072001,
+  "contribution": 21.308974
+ },
+ {
+  "index_date": "2026-07-03",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 103.3008,
+  "weight": 0.0956135,
+  "contribution": 9.876951
+ },
+ {
+  "index_date": "2026-07-03",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 102.4173,
+  "weight": 0.1593118,
+  "contribution": 16.316277
+ },
+ {
+  "index_date": "2026-07-03",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 103.132,
+  "weight": 0.121726,
+  "contribution": 12.553847
+ },
+ {
+  "index_date": "2026-07-03",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 101.1866,
+  "weight": 0.1314687,
+  "contribution": 13.302868
+ },
+ {
+  "index_date": "2026-07-03",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 101.9184,
+  "weight": 0.0943425,
+  "contribution": 9.615233
+ },
+ {
+  "index_date": "2026-07-04",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 102.2973,
+  "weight": 0.0981153,
+  "contribution": 10.036929
+ },
+ {
+  "index_date": "2026-07-04",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 102.1248,
+  "weight": 0.0922221,
+  "contribution": 9.418165
+ },
+ {
+  "index_date": "2026-07-04",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 101.1761,
+  "weight": 0.2072001,
+  "contribution": 20.963699
+ },
+ {
+  "index_date": "2026-07-04",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 101.8572,
+  "weight": 0.0956135,
+  "contribution": 9.738923
+ },
+ {
+  "index_date": "2026-07-04",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 101.6557,
+  "weight": 0.1593118,
+  "contribution": 16.194946
+ },
+ {
+  "index_date": "2026-07-04",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 101.6234,
+  "weight": 0.121726,
+  "contribution": 12.370209
+ },
+ {
+  "index_date": "2026-07-04",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 102.4101,
+  "weight": 0.1314687,
+  "contribution": 13.463721
+ },
+ {
+  "index_date": "2026-07-04",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 100.7956,
+  "weight": 0.0943425,
+  "contribution": 9.509309
+ },
+ {
+  "index_date": "2026-07-05",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 98.8272,
+  "weight": 0.0981153,
+  "contribution": 9.696465
+ },
+ {
+  "index_date": "2026-07-05",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 98.8673,
+  "weight": 0.0922221,
+  "contribution": 9.11775
+ },
+ {
+  "index_date": "2026-07-05",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 98.9784,
+  "weight": 0.2072001,
+  "contribution": 20.508326
+ },
+ {
+  "index_date": "2026-07-05",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 97.9306,
+  "weight": 0.0956135,
+  "contribution": 9.36349
+ },
+ {
+  "index_date": "2026-07-05",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 99.9723,
+  "weight": 0.1593118,
+  "contribution": 15.926775
+ },
+ {
+  "index_date": "2026-07-05",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 99.6024,
+  "weight": 0.121726,
+  "contribution": 12.124199
+ },
+ {
+  "index_date": "2026-07-05",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 98.2179,
+  "weight": 0.1314687,
+  "contribution": 12.912582
+ },
+ {
+  "index_date": "2026-07-05",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 98.6267,
+  "weight": 0.0943425,
+  "contribution": 9.304686
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 95.3508,
+  "weight": 0.0981153,
+  "contribution": 9.355369
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 96.09,
+  "weight": 0.0922221,
+  "contribution": 8.861619
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 96.6626,
+  "weight": 0.2072001,
+  "contribution": 20.028506
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 97.6683,
+  "weight": 0.0956135,
+  "contribution": 9.338408
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 96.3906,
+  "weight": 0.1593118,
+  "contribution": 15.356163
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 95.6117,
+  "weight": 0.121726,
+  "contribution": 11.638424
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 96.9664,
+  "weight": 0.1314687,
+  "contribution": 12.748045
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 96.4914,
+  "weight": 0.0943425,
+  "contribution": 9.103239
+ },
+ {
+  "index_date": "2026-07-07",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 100.1766,
+  "weight": 0.0981153,
+  "contribution": 9.828853
+ },
+ {
+  "index_date": "2026-07-07",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 97.9717,
+  "weight": 0.0922221,
+  "contribution": 9.035156
+ },
+ {
+  "index_date": "2026-07-07",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 97.3659,
+  "weight": 0.2072001,
+  "contribution": 20.174217
+ },
+ {
+  "index_date": "2026-07-07",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 97.2597,
+  "weight": 0.0956135,
+  "contribution": 9.299336
+ },
+ {
+  "index_date": "2026-07-07",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 98.5894,
+  "weight": 0.1593118,
+  "contribution": 15.706451
+ },
+ {
+  "index_date": "2026-07-07",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 97.6276,
+  "weight": 0.121726,
+  "contribution": 11.883815
+ },
+ {
+  "index_date": "2026-07-07",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 99.2218,
+  "weight": 0.1314687,
+  "contribution": 13.04456
+ },
+ {
+  "index_date": "2026-07-07",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 96.929,
+  "weight": 0.0943425,
+  "contribution": 9.144526
+ },
+ {
+  "index_date": "2026-07-08",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 99.9495,
+  "weight": 0.0981153,
+  "contribution": 9.806574
+ },
+ {
+  "index_date": "2026-07-08",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 99.8699,
+  "weight": 0.0922221,
+  "contribution": 9.210208
+ },
+ {
+  "index_date": "2026-07-08",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 97.8688,
+  "weight": 0.2072001,
+  "contribution": 20.278417
+ },
+ {
+  "index_date": "2026-07-08",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 99.0892,
+  "weight": 0.0956135,
+  "contribution": 9.47427
+ },
+ {
+  "index_date": "2026-07-08",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 98.3677,
+  "weight": 0.1593118,
+  "contribution": 15.671136
+ },
+ {
+  "index_date": "2026-07-08",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 99.2346,
+  "weight": 0.121726,
+  "contribution": 12.079429
+ },
+ {
+  "index_date": "2026-07-08",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 99.3252,
+  "weight": 0.1314687,
+  "contribution": 13.058158
+ },
+ {
+  "index_date": "2026-07-08",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 98.5327,
+  "weight": 0.0943425,
+  "contribution": 9.295818
+ },
+ {
+  "index_date": "2026-07-09",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 102.7471,
+  "weight": 0.0981153,
+  "contribution": 10.081059
+ },
+ {
+  "index_date": "2026-07-09",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 102.8233,
+  "weight": 0.0922221,
+  "contribution": 9.482578
+ },
+ {
+  "index_date": "2026-07-09",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 105.4707,
+  "weight": 0.2072001,
+  "contribution": 21.853536
+ },
+ {
+  "index_date": "2026-07-09",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 102.8001,
+  "weight": 0.0956135,
+  "contribution": 9.829079
+ },
+ {
+  "index_date": "2026-07-09",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 102.8532,
+  "weight": 0.1593118,
+  "contribution": 16.385729
+ },
+ {
+  "index_date": "2026-07-09",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 103.1128,
+  "weight": 0.121726,
+  "contribution": 12.551514
+ },
+ {
+  "index_date": "2026-07-09",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 104.0961,
+  "weight": 0.1314687,
+  "contribution": 13.685382
+ },
+ {
+  "index_date": "2026-07-09",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 103.6445,
+  "weight": 0.0943425,
+  "contribution": 9.778081
+ },
+ {
+  "index_date": "2026-07-10",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 103.5569,
+  "weight": 0.0981153,
+  "contribution": 10.160519
+ },
+ {
+  "index_date": "2026-07-10",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 102.2904,
+  "weight": 0.0922221,
+  "contribution": 9.433437
+ },
+ {
+  "index_date": "2026-07-10",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 101.158,
+  "weight": 0.2072001,
+  "contribution": 20.959951
+ },
+ {
+  "index_date": "2026-07-10",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 102.0394,
+  "weight": 0.0956135,
+  "contribution": 9.756341
+ },
+ {
+  "index_date": "2026-07-10",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 100.9059,
+  "weight": 0.1593118,
+  "contribution": 16.075497
+ },
+ {
+  "index_date": "2026-07-10",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 103.4506,
+  "weight": 0.121726,
+  "contribution": 12.592629
+ },
+ {
+  "index_date": "2026-07-10",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 102.0118,
+  "weight": 0.1314687,
+  "contribution": 13.411361
+ },
+ {
+  "index_date": "2026-07-10",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 105.079,
+  "weight": 0.0943425,
+  "contribution": 9.913416
+ },
+ {
+  "index_date": "2026-07-11",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 101.4774,
+  "weight": 0.0981153,
+  "contribution": 9.956486
+ },
+ {
+  "index_date": "2026-07-11",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 101.5059,
+  "weight": 0.0922221,
+  "contribution": 9.361091
+ },
+ {
+  "index_date": "2026-07-11",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 102.2583,
+  "weight": 0.2072001,
+  "contribution": 21.18792
+ },
+ {
+  "index_date": "2026-07-11",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 103.9713,
+  "weight": 0.0956135,
+  "contribution": 9.94106
+ },
+ {
+  "index_date": "2026-07-11",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 102.2064,
+  "weight": 0.1593118,
+  "contribution": 16.282683
+ },
+ {
+  "index_date": "2026-07-11",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 101.4154,
+  "weight": 0.121726,
+  "contribution": 12.344885
+ },
+ {
+  "index_date": "2026-07-11",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 101.9886,
+  "weight": 0.1314687,
+  "contribution": 13.408311
+ },
+ {
+  "index_date": "2026-07-11",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 99.9794,
+  "weight": 0.0943425,
+  "contribution": 9.432311
+ },
+ {
+  "index_date": "2026-07-12",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 98.3764,
+  "weight": 0.0981153,
+  "contribution": 9.652225
+ },
+ {
+  "index_date": "2026-07-12",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 98.7552,
+  "weight": 0.0922221,
+  "contribution": 9.107409
+ },
+ {
+  "index_date": "2026-07-12",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 101.085,
+  "weight": 0.2072001,
+  "contribution": 20.944814
+ },
+ {
+  "index_date": "2026-07-12",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 96.8805,
+  "weight": 0.0956135,
+  "contribution": 9.263084
+ },
+ {
+  "index_date": "2026-07-12",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 99.8547,
+  "weight": 0.1593118,
+  "contribution": 15.908029
+ },
+ {
+  "index_date": "2026-07-12",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 99.74,
+  "weight": 0.121726,
+  "contribution": 12.140948
+ },
+ {
+  "index_date": "2026-07-12",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 98.4867,
+  "weight": 0.1314687,
+  "contribution": 12.947924
+ },
+ {
+  "index_date": "2026-07-12",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 100.0707,
+  "weight": 0.0943425,
+  "contribution": 9.44092
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 97.3338,
+  "weight": 0.0981153,
+  "contribution": 9.54994
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 97.2363,
+  "weight": 0.0922221,
+  "contribution": 8.967335
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 97.7125,
+  "weight": 0.2072001,
+  "contribution": 20.246034
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 95.5337,
+  "weight": 0.0956135,
+  "contribution": 9.134315
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 98.4605,
+  "weight": 0.1593118,
+  "contribution": 15.685913
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 96.4602,
+  "weight": 0.121726,
+  "contribution": 11.741717
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 96.3746,
+  "weight": 0.1314687,
+  "contribution": 12.670245
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 96.9868,
+  "weight": 0.0943425,
+  "contribution": 9.149975
+ },
+ {
+  "index_date": "2026-07-14",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 96.5966,
+  "weight": 0.0981153,
+  "contribution": 9.477608
+ },
+ {
+  "index_date": "2026-07-14",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 97.8752,
+  "weight": 0.0922221,
+  "contribution": 9.026253
+ },
+ {
+  "index_date": "2026-07-14",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 96.0211,
+  "weight": 0.2072001,
+  "contribution": 19.895584
+ },
+ {
+  "index_date": "2026-07-14",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 97.1294,
+  "weight": 0.0956135,
+  "contribution": 9.286885
+ },
+ {
+  "index_date": "2026-07-14",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 95.8426,
+  "weight": 0.1593118,
+  "contribution": 15.268863
+ },
+ {
+  "index_date": "2026-07-14",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 98.2949,
+  "weight": 0.121726,
+  "contribution": 11.965045
+ },
+ {
+  "index_date": "2026-07-14",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 97.9255,
+  "weight": 0.1314687,
+  "contribution": 12.874133
+ },
+ {
+  "index_date": "2026-07-14",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 98.0572,
+  "weight": 0.0943425,
+  "contribution": 9.250963
+ },
+ {
+  "index_date": "2026-07-15",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 97.7578,
+  "weight": 0.0981153,
+  "contribution": 9.591537
+ },
+ {
+  "index_date": "2026-07-15",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 100.3168,
+  "weight": 0.0922221,
+  "contribution": 9.251422
+ },
+ {
+  "index_date": "2026-07-15",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 98.6561,
+  "weight": 0.2072001,
+  "contribution": 20.441546
+ },
+ {
+  "index_date": "2026-07-15",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 99.287,
+  "weight": 0.0956135,
+  "contribution": 9.493177
+ },
+ {
+  "index_date": "2026-07-15",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 98.643,
+  "weight": 0.1593118,
+  "contribution": 15.714997
+ },
+ {
+  "index_date": "2026-07-15",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 99.7955,
+  "weight": 0.121726,
+  "contribution": 12.147711
+ },
+ {
+  "index_date": "2026-07-15",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 97.9135,
+  "weight": 0.1314687,
+  "contribution": 12.872559
+ },
+ {
+  "index_date": "2026-07-15",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 99.5919,
+  "weight": 0.0943425,
+  "contribution": 9.395751
+ },
+ {
+  "index_date": "2026-07-16",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 103.5493,
+  "weight": 0.0981153,
+  "contribution": 10.159768
+ },
+ {
+  "index_date": "2026-07-16",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 104.9196,
+  "weight": 0.0922221,
+  "contribution": 9.67591
+ },
+ {
+  "index_date": "2026-07-16",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 102.8863,
+  "weight": 0.2072001,
+  "contribution": 21.318056
+ },
+ {
+  "index_date": "2026-07-16",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 103.8503,
+  "weight": 0.0956135,
+  "contribution": 9.929492
+ },
+ {
+  "index_date": "2026-07-16",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 103.9365,
+  "weight": 0.1593118,
+  "contribution": 16.558318
+ },
+ {
+  "index_date": "2026-07-16",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 105.2096,
+  "weight": 0.121726,
+  "contribution": 12.80675
+ },
+ {
+  "index_date": "2026-07-16",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 102.8683,
+  "weight": 0.1314687,
+  "contribution": 13.523968
+ },
+ {
+  "index_date": "2026-07-16",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 102.7463,
+  "weight": 0.0943425,
+  "contribution": 9.693339
+ },
+ {
+  "index_date": "2026-07-17",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 101.2395,
+  "weight": 0.0981153,
+  "contribution": 9.933142
+ },
+ {
+  "index_date": "2026-07-17",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 103.6454,
+  "weight": 0.0922221,
+  "contribution": 9.558401
+ },
+ {
+  "index_date": "2026-07-17",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 102.9756,
+  "weight": 0.2072001,
+  "contribution": 21.336558
+ },
+ {
+  "index_date": "2026-07-17",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 102.2356,
+  "weight": 0.0956135,
+  "contribution": 9.7751
+ },
+ {
+  "index_date": "2026-07-17",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 102.5193,
+  "weight": 0.1593118,
+  "contribution": 16.33253
+ },
+ {
+  "index_date": "2026-07-17",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 102.2401,
+  "weight": 0.121726,
+  "contribution": 12.44528
+ },
+ {
+  "index_date": "2026-07-17",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 102.5114,
+  "weight": 0.1314687,
+  "contribution": 13.477035
+ },
+ {
+  "index_date": "2026-07-17",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 101.7157,
+  "weight": 0.0943425,
+  "contribution": 9.596115
+ },
+ {
+  "index_date": "2026-07-18",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 103.2135,
+  "weight": 0.0981153,
+  "contribution": 10.126824
+ },
+ {
+  "index_date": "2026-07-18",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 102.7123,
+  "weight": 0.0922221,
+  "contribution": 9.472341
+ },
+ {
+  "index_date": "2026-07-18",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 103.0248,
+  "weight": 0.2072001,
+  "contribution": 21.346752
+ },
+ {
+  "index_date": "2026-07-18",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 102.4733,
+  "weight": 0.0956135,
+  "contribution": 9.797831
+ },
+ {
+  "index_date": "2026-07-18",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 100.4091,
+  "weight": 0.1593118,
+  "contribution": 15.99635
+ },
+ {
+  "index_date": "2026-07-18",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 101.7831,
+  "weight": 0.121726,
+  "contribution": 12.38965
+ },
+ {
+  "index_date": "2026-07-18",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 105.4067,
+  "weight": 0.1314687,
+  "contribution": 13.857682
+ },
+ {
+  "index_date": "2026-07-18",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 102.6429,
+  "weight": 0.0943425,
+  "contribution": 9.683587
+ },
+ {
+  "index_date": "2026-07-19",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 99.4668,
+  "weight": 0.0981153,
+  "contribution": 9.759211
+ },
+ {
+  "index_date": "2026-07-19",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 98.5657,
+  "weight": 0.0922221,
+  "contribution": 9.089935
+ },
+ {
+  "index_date": "2026-07-19",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 98.9264,
+  "weight": 0.2072001,
+  "contribution": 20.497558
+ },
+ {
+  "index_date": "2026-07-19",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 98.3997,
+  "weight": 0.0956135,
+  "contribution": 9.408341
+ },
+ {
+  "index_date": "2026-07-19",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 97.9547,
+  "weight": 0.1593118,
+  "contribution": 15.605336
+ },
+ {
+  "index_date": "2026-07-19",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 98.2281,
+  "weight": 0.121726,
+  "contribution": 11.956919
+ },
+ {
+  "index_date": "2026-07-19",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 98.5536,
+  "weight": 0.1314687,
+  "contribution": 12.95672
+ },
+ {
+  "index_date": "2026-07-19",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 99.8231,
+  "weight": 0.0943425,
+  "contribution": 9.417561
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 96.2436,
+  "weight": 0.0981153,
+  "contribution": 9.442973
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 95.9686,
+  "weight": 0.0922221,
+  "contribution": 8.850422
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 95.4629,
+  "weight": 0.2072001,
+  "contribution": 19.779919
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 96.0082,
+  "weight": 0.0956135,
+  "contribution": 9.179676
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 95.4392,
+  "weight": 0.1593118,
+  "contribution": 15.204585
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 95.8557,
+  "weight": 0.121726,
+  "contribution": 11.668127
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 96.1976,
+  "weight": 0.1314687,
+  "contribution": 12.64698
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 97.2918,
+  "weight": 0.0943425,
+  "contribution": 9.178756
+ },
+ {
+  "index_date": "2026-07-21",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 98.7678,
+  "weight": 0.0981153,
+  "contribution": 9.690634
+ },
+ {
+  "index_date": "2026-07-21",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 97.3287,
+  "weight": 0.0922221,
+  "contribution": 8.975856
+ },
+ {
+  "index_date": "2026-07-21",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 95.7084,
+  "weight": 0.2072001,
+  "contribution": 19.8308
+ },
+ {
+  "index_date": "2026-07-21",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 98.2973,
+  "weight": 0.0956135,
+  "contribution": 9.398545
+ },
+ {
+  "index_date": "2026-07-21",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 98.4493,
+  "weight": 0.1593118,
+  "contribution": 15.684133
+ },
+ {
+  "index_date": "2026-07-21",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 96.0524,
+  "weight": 0.121726,
+  "contribution": 11.692079
+ },
+ {
+  "index_date": "2026-07-21",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 95.1612,
+  "weight": 0.1314687,
+  "contribution": 12.510716
+ },
+ {
+  "index_date": "2026-07-21",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 98.6839,
+  "weight": 0.0943425,
+  "contribution": 9.310088
+ },
+ {
+  "index_date": "2026-07-22",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 98.1956,
+  "weight": 0.0981153,
+  "contribution": 9.634487
+ },
+ {
+  "index_date": "2026-07-22",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 98.0337,
+  "weight": 0.0922221,
+  "contribution": 9.040872
+ },
+ {
+  "index_date": "2026-07-22",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 101.0505,
+  "weight": 0.2072001,
+  "contribution": 20.937673
+ },
+ {
+  "index_date": "2026-07-22",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 100.7329,
+  "weight": 0.0956135,
+  "contribution": 9.631425
+ },
+ {
+  "index_date": "2026-07-22",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 98.5823,
+  "weight": 0.1593118,
+  "contribution": 15.705316
+ },
+ {
+  "index_date": "2026-07-22",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 98.5638,
+  "weight": 0.121726,
+  "contribution": 11.997783
+ },
+ {
+  "index_date": "2026-07-22",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 100.4897,
+  "weight": 0.1314687,
+  "contribution": 13.211254
+ },
+ {
+  "index_date": "2026-07-22",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 98.5891,
+  "weight": 0.0943425,
+  "contribution": 9.301141
+ },
+ {
+  "index_date": "2026-07-23",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 103.7261,
+  "weight": 0.0981153,
+  "contribution": 10.177121
+ },
+ {
+  "index_date": "2026-07-23",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 104.5405,
+  "weight": 0.0922221,
+  "contribution": 9.640948
+ },
+ {
+  "index_date": "2026-07-23",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 104.7558,
+  "weight": 0.2072001,
+  "contribution": 21.705408
+ },
+ {
+  "index_date": "2026-07-23",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 103.7443,
+  "weight": 0.0956135,
+  "contribution": 9.919358
+ },
+ {
+  "index_date": "2026-07-23",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 103.5486,
+  "weight": 0.1593118,
+  "contribution": 16.496513
+ },
+ {
+  "index_date": "2026-07-23",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 102.7626,
+  "weight": 0.121726,
+  "contribution": 12.508878
+ },
+ {
+  "index_date": "2026-07-23",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 104.4802,
+  "weight": 0.1314687,
+  "contribution": 13.735882
+ },
+ {
+  "index_date": "2026-07-23",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 102.9791,
+  "weight": 0.0943425,
+  "contribution": 9.715303
+ },
+ {
+  "index_date": "2026-07-24",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 103.062,
+  "weight": 0.0981153,
+  "contribution": 10.111954
+ },
+ {
+  "index_date": "2026-07-24",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 102.6427,
+  "weight": 0.0922221,
+  "contribution": 9.465929
+ },
+ {
+  "index_date": "2026-07-24",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 102.2913,
+  "weight": 0.2072001,
+  "contribution": 21.19476
+ },
+ {
+  "index_date": "2026-07-24",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 102.2944,
+  "weight": 0.0956135,
+  "contribution": 9.780726
+ },
+ {
+  "index_date": "2026-07-24",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 103.2489,
+  "weight": 0.1593118,
+  "contribution": 16.448767
+ },
+ {
+  "index_date": "2026-07-24",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 103.7565,
+  "weight": 0.121726,
+  "contribution": 12.629867
+ },
+ {
+  "index_date": "2026-07-24",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 102.122,
+  "weight": 0.1314687,
+  "contribution": 13.425853
+ },
+ {
+  "index_date": "2026-07-24",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 102.9848,
+  "weight": 0.0943425,
+  "contribution": 9.715842
+ },
+ {
+  "index_date": "2026-07-25",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 100.7733,
+  "weight": 0.0981153,
+  "contribution": 9.8874
+ },
+ {
+  "index_date": "2026-07-25",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 101.6392,
+  "weight": 0.0922221,
+  "contribution": 9.37338
+ },
+ {
+  "index_date": "2026-07-25",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 102.3848,
+  "weight": 0.2072001,
+  "contribution": 21.214141
+ },
+ {
+  "index_date": "2026-07-25",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 101.8752,
+  "weight": 0.0956135,
+  "contribution": 9.74064
+ },
+ {
+  "index_date": "2026-07-25",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 103.1405,
+  "weight": 0.1593118,
+  "contribution": 16.431496
+ },
+ {
+  "index_date": "2026-07-25",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 102.342,
+  "weight": 0.121726,
+  "contribution": 12.457688
+ },
+ {
+  "index_date": "2026-07-25",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 102.2639,
+  "weight": 0.1314687,
+  "contribution": 13.444504
+ },
+ {
+  "index_date": "2026-07-25",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 101.1693,
+  "weight": 0.0943425,
+  "contribution": 9.544564
+ },
+ {
+  "index_date": "2026-07-26",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 99.8335,
+  "weight": 0.0981153,
+  "contribution": 9.795199
+ },
+ {
+  "index_date": "2026-07-26",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 99.3808,
+  "weight": 0.0922221,
+  "contribution": 9.165109
+ },
+ {
+  "index_date": "2026-07-26",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 98.5962,
+  "weight": 0.2072001,
+  "contribution": 20.429143
+ },
+ {
+  "index_date": "2026-07-26",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 98.6413,
+  "weight": 0.0956135,
+  "contribution": 9.431438
+ },
+ {
+  "index_date": "2026-07-26",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 99.998,
+  "weight": 0.1593118,
+  "contribution": 15.930862
+ },
+ {
+  "index_date": "2026-07-26",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 99.7366,
+  "weight": 0.121726,
+  "contribution": 12.140535
+ },
+ {
+  "index_date": "2026-07-26",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 100.8299,
+  "weight": 0.1314687,
+  "contribution": 13.255975
+ },
+ {
+  "index_date": "2026-07-26",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 100.1126,
+  "weight": 0.0943425,
+  "contribution": 9.444869
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 96.5076,
+  "weight": 0.0981153,
+  "contribution": 9.468869
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 95.8564,
+  "weight": 0.0922221,
+  "contribution": 8.840081
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 95.9029,
+  "weight": 0.2072001,
+  "contribution": 19.871082
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 97.2841,
+  "weight": 0.0956135,
+  "contribution": 9.301671
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 96.685,
+  "weight": 0.1593118,
+  "contribution": 15.403055
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 95.9635,
+  "weight": 0.121726,
+  "contribution": 11.681255
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 96.9251,
+  "weight": 0.1314687,
+  "contribution": 12.74262
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 96.2867,
+  "weight": 0.0943425,
+  "contribution": 9.083924
+ },
+ {
+  "index_date": "2026-07-28",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 98.5534,
+  "weight": 0.0981153,
+  "contribution": 9.669596
+ },
+ {
+  "index_date": "2026-07-28",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 98.0048,
+  "weight": 0.0922221,
+  "contribution": 9.038205
+ },
+ {
+  "index_date": "2026-07-28",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 99.4434,
+  "weight": 0.2072001,
+  "contribution": 20.604678
+ },
+ {
+  "index_date": "2026-07-28",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 97.9716,
+  "weight": 0.0956135,
+  "contribution": 9.367404
+ },
+ {
+  "index_date": "2026-07-28",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 96.6865,
+  "weight": 0.1593118,
+  "contribution": 15.403308
+ },
+ {
+  "index_date": "2026-07-28",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 98.3779,
+  "weight": 0.121726,
+  "contribution": 11.975144
+ },
+ {
+  "index_date": "2026-07-28",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 98.6836,
+  "weight": 0.1314687,
+  "contribution": 12.9738
+ },
+ {
+  "index_date": "2026-07-28",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 97.7283,
+  "weight": 0.0943425,
+  "contribution": 9.219929
+ },
+ {
+  "index_date": "2026-07-29",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 100.8869,
+  "weight": 0.0981153,
+  "contribution": 9.898548
+ },
+ {
+  "index_date": "2026-07-29",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 99.5631,
+  "weight": 0.0922221,
+  "contribution": 9.181921
+ },
+ {
+  "index_date": "2026-07-29",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 98.7652,
+  "weight": 0.2072001,
+  "contribution": 20.464164
+ },
+ {
+  "index_date": "2026-07-29",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 99.3201,
+  "weight": 0.0956135,
+  "contribution": 9.496347
+ },
+ {
+  "index_date": "2026-07-29",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 98.7546,
+  "weight": 0.1593118,
+  "contribution": 15.732773
+ },
+ {
+  "index_date": "2026-07-29",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 97.7694,
+  "weight": 0.121726,
+  "contribution": 11.901076
+ },
+ {
+  "index_date": "2026-07-29",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 99.4777,
+  "weight": 0.1314687,
+  "contribution": 13.078207
+ },
+ {
+  "index_date": "2026-07-29",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 100.0022,
+  "weight": 0.0943425,
+  "contribution": 9.434455
+ },
+ {
+  "index_date": "2026-07-30",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 105.5224,
+  "weight": 0.0981153,
+  "contribution": 10.353358
+ },
+ {
+  "index_date": "2026-07-30",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 104.299,
+  "weight": 0.0922221,
+  "contribution": 9.618668
+ },
+ {
+  "index_date": "2026-07-30",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 103.2221,
+  "weight": 0.2072001,
+  "contribution": 21.387622
+ },
+ {
+  "index_date": "2026-07-30",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 104.1829,
+  "weight": 0.0956135,
+  "contribution": 9.961295
+ },
+ {
+  "index_date": "2026-07-30",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 104.0175,
+  "weight": 0.1593118,
+  "contribution": 16.571211
+ },
+ {
+  "index_date": "2026-07-30",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 102.713,
+  "weight": 0.121726,
+  "contribution": 12.502838
+ },
+ {
+  "index_date": "2026-07-30",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 103.7626,
+  "weight": 0.1314687,
+  "contribution": 13.641535
+ },
+ {
+  "index_date": "2026-07-30",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 103.4134,
+  "weight": 0.0943425,
+  "contribution": 9.75628
+ },
+ {
+  "index_date": "2026-07-31",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 103.8105,
+  "weight": 0.0981153,
+  "contribution": 10.185399
+ },
+ {
+  "index_date": "2026-07-31",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 102.8481,
+  "weight": 0.0922221,
+  "contribution": 9.484869
+ },
+ {
+  "index_date": "2026-07-31",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 103.6236,
+  "weight": 0.2072001,
+  "contribution": 21.470819
+ },
+ {
+  "index_date": "2026-07-31",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 101.9357,
+  "weight": 0.0956135,
+  "contribution": 9.746431
+ },
+ {
+  "index_date": "2026-07-31",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 102.1546,
+  "weight": 0.1593118,
+  "contribution": 16.274434
+ },
+ {
+  "index_date": "2026-07-31",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 100.3254,
+  "weight": 0.121726,
+  "contribution": 12.212209
+ },
+ {
+  "index_date": "2026-07-31",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 101.3755,
+  "weight": 0.1314687,
+  "contribution": 13.327711
+ },
+ {
+  "index_date": "2026-07-31",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 102.9224,
+  "weight": 0.0943425,
+  "contribution": 9.709957
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 99.7579,
+  "weight": 0.0981153,
+  "contribution": 9.787778
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 100.872,
+  "weight": 0.0922221,
+  "contribution": 9.302627
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 102.0434,
+  "weight": 0.2072001,
+  "contribution": 21.143394
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 104.3328,
+  "weight": 0.0956135,
+  "contribution": 9.97562
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 102.7873,
+  "weight": 0.1593118,
+  "contribution": 16.375229
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 102.1277,
+  "weight": 0.121726,
+  "contribution": 12.431602
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 101.664,
+  "weight": 0.1314687,
+  "contribution": 13.365639
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 102.6331,
+  "weight": 0.0943425,
+  "contribution": 9.682665
+ },
+ {
+  "index_date": "2026-08-02",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 98.8507,
+  "weight": 0.0981153,
+  "contribution": 9.698767
+ },
+ {
+  "index_date": "2026-08-02",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 100.0881,
+  "weight": 0.0922221,
+  "contribution": 9.230338
+ },
+ {
+  "index_date": "2026-08-02",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 98.5044,
+  "weight": 0.2072001,
+  "contribution": 20.410119
+ },
+ {
+  "index_date": "2026-08-02",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 98.3454,
+  "weight": 0.0956135,
+  "contribution": 9.403144
+ },
+ {
+  "index_date": "2026-08-02",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 98.8556,
+  "weight": 0.1593118,
+  "contribution": 15.748869
+ },
+ {
+  "index_date": "2026-08-02",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 98.7848,
+  "weight": 0.121726,
+  "contribution": 12.024683
+ },
+ {
+  "index_date": "2026-08-02",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 98.916,
+  "weight": 0.1314687,
+  "contribution": 13.004359
+ },
+ {
+  "index_date": "2026-08-02",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 100.3681,
+  "weight": 0.0943425,
+  "contribution": 9.46898
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 95.7889,
+  "weight": 0.0981153,
+  "contribution": 9.398358
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 96.7887,
+  "weight": 0.0922221,
+  "contribution": 8.926056
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 97.0349,
+  "weight": 0.2072001,
+  "contribution": 20.105636
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 97.2187,
+  "weight": 0.0956135,
+  "contribution": 9.29542
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 94.447,
+  "weight": 0.1593118,
+  "contribution": 15.046523
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 95.1867,
+  "weight": 0.121726,
+  "contribution": 11.586702
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 96.6948,
+  "weight": 0.1314687,
+  "contribution": 12.712341
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 95.4437,
+  "weight": 0.0943425,
+  "contribution": 9.004397
+ },
+ {
+  "index_date": "2026-08-04",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 95.9954,
+  "weight": 0.0981153,
+  "contribution": 9.418613
+ },
+ {
+  "index_date": "2026-08-04",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 100.2519,
+  "weight": 0.0922221,
+  "contribution": 9.245441
+ },
+ {
+  "index_date": "2026-08-04",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 97.8404,
+  "weight": 0.2072001,
+  "contribution": 20.272535
+ },
+ {
+  "index_date": "2026-08-04",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 99.564,
+  "weight": 0.0956135,
+  "contribution": 9.519665
+ },
+ {
+  "index_date": "2026-08-04",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 97.7057,
+  "weight": 0.1593118,
+  "contribution": 15.565669
+ },
+ {
+  "index_date": "2026-08-04",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 97.5323,
+  "weight": 0.121726,
+  "contribution": 11.872217
+ },
+ {
+  "index_date": "2026-08-04",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 97.4857,
+  "weight": 0.1314687,
+  "contribution": 12.816317
+ },
+ {
+  "index_date": "2026-08-04",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 98.6414,
+  "weight": 0.0943425,
+  "contribution": 9.306074
+ },
+ {
+  "index_date": "2026-08-05",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 99.5152,
+  "weight": 0.0981153,
+  "contribution": 9.763962
+ },
+ {
+  "index_date": "2026-08-05",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 99.7925,
+  "weight": 0.0922221,
+  "contribution": 9.203073
+ },
+ {
+  "index_date": "2026-08-05",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 98.3571,
+  "weight": 0.2072001,
+  "contribution": 20.379611
+ },
+ {
+  "index_date": "2026-08-05",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 98.4829,
+  "weight": 0.0956135,
+  "contribution": 9.416292
+ },
+ {
+  "index_date": "2026-08-05",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 99.0503,
+  "weight": 0.1593118,
+  "contribution": 15.779887
+ },
+ {
+  "index_date": "2026-08-05",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 99.3467,
+  "weight": 0.121726,
+  "contribution": 12.093075
+ },
+ {
+  "index_date": "2026-08-05",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 99.5617,
+  "weight": 0.1314687,
+  "contribution": 13.089241
+ },
+ {
+  "index_date": "2026-08-05",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 100.2469,
+  "weight": 0.0943425,
+  "contribution": 9.457546
+ },
+ {
+  "index_date": "2026-08-06",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 104.0996,
+  "weight": 0.0981153,
+  "contribution": 10.213763
+ },
+ {
+  "index_date": "2026-08-06",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 103.437,
+  "weight": 0.0922221,
+  "contribution": 9.539177
+ },
+ {
+  "index_date": "2026-08-06",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 102.6822,
+  "weight": 0.2072001,
+  "contribution": 21.275752
+ },
+ {
+  "index_date": "2026-08-06",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 104.7007,
+  "weight": 0.0956135,
+  "contribution": 10.010802
+ },
+ {
+  "index_date": "2026-08-06",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 104.58,
+  "weight": 0.1593118,
+  "contribution": 16.660821
+ },
+ {
+  "index_date": "2026-08-06",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 103.054,
+  "weight": 0.121726,
+  "contribution": 12.544348
+ },
+ {
+  "index_date": "2026-08-06",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 102.4726,
+  "weight": 0.1314687,
+  "contribution": 13.471935
+ },
+ {
+  "index_date": "2026-08-06",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 102.0166,
+  "weight": 0.0943425,
+  "contribution": 9.624498
+ },
+ {
+  "index_date": "2026-08-07",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 103.2912,
+  "weight": 0.0981153,
+  "contribution": 10.134444
+ },
+ {
+  "index_date": "2026-08-07",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 103.1868,
+  "weight": 0.0922221,
+  "contribution": 9.516106
+ },
+ {
+  "index_date": "2026-08-07",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 104.0072,
+  "weight": 0.2072001,
+  "contribution": 21.550301
+ },
+ {
+  "index_date": "2026-08-07",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 99.9097,
+  "weight": 0.0956135,
+  "contribution": 9.552714
+ },
+ {
+  "index_date": "2026-08-07",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 103.2787,
+  "weight": 0.1593118,
+  "contribution": 16.453516
+ },
+ {
+  "index_date": "2026-08-07",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 101.6369,
+  "weight": 0.121726,
+  "contribution": 12.371848
+ },
+ {
+  "index_date": "2026-08-07",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 104.9847,
+  "weight": 0.1314687,
+  "contribution": 13.802207
+ },
+ {
+  "index_date": "2026-08-07",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 102.22,
+  "weight": 0.0943425,
+  "contribution": 9.643695
+ },
+ {
+  "index_date": "2026-08-08",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 99.6055,
+  "weight": 0.0981153,
+  "contribution": 9.77282
+ },
+ {
+  "index_date": "2026-08-08",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 102.8778,
+  "weight": 0.0922221,
+  "contribution": 9.487603
+ },
+ {
+  "index_date": "2026-08-08",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 103.262,
+  "weight": 0.2072001,
+  "contribution": 21.395906
+ },
+ {
+  "index_date": "2026-08-08",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 102.3966,
+  "weight": 0.0956135,
+  "contribution": 9.790499
+ },
+ {
+  "index_date": "2026-08-08",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 102.1134,
+  "weight": 0.1593118,
+  "contribution": 16.267863
+ },
+ {
+  "index_date": "2026-08-08",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 100.6188,
+  "weight": 0.121726,
+  "contribution": 12.24793
+ },
+ {
+  "index_date": "2026-08-08",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 100.753,
+  "weight": 0.1314687,
+  "contribution": 13.245871
+ },
+ {
+  "index_date": "2026-08-08",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 102.1694,
+  "weight": 0.0943425,
+  "contribution": 9.638916
+ },
+ {
+  "index_date": "2026-08-09",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 97.6909,
+  "weight": 0.0981153,
+  "contribution": 9.584969
+ },
+ {
+  "index_date": "2026-08-09",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 99.0258,
+  "weight": 0.0922221,
+  "contribution": 9.132366
+ },
+ {
+  "index_date": "2026-08-09",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 100.0651,
+  "weight": 0.2072001,
+  "contribution": 20.733491
+ },
+ {
+  "index_date": "2026-08-09",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 98.56,
+  "weight": 0.0956135,
+  "contribution": 9.423666
+ },
+ {
+  "index_date": "2026-08-09",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 98.729,
+  "weight": 0.1593118,
+  "contribution": 15.728701
+ },
+ {
+  "index_date": "2026-08-09",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 98.8093,
+  "weight": 0.121726,
+  "contribution": 12.027664
+ },
+ {
+  "index_date": "2026-08-09",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 99.5902,
+  "weight": 0.1314687,
+  "contribution": 13.092995
+ },
+ {
+  "index_date": "2026-08-09",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 99.5235,
+  "weight": 0.0943425,
+  "contribution": 9.389292
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 95.3547,
+  "weight": 0.0981153,
+  "contribution": 9.355751
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 95.4915,
+  "weight": 0.0922221,
+  "contribution": 8.806429
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 97.6094,
+  "weight": 0.2072001,
+  "contribution": 20.224679
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 97.3461,
+  "weight": 0.0956135,
+  "contribution": 9.307605
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 96.7286,
+  "weight": 0.1593118,
+  "contribution": 15.410012
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 97.5708,
+  "weight": 0.121726,
+  "contribution": 11.876902
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 96.0244,
+  "weight": 0.1314687,
+  "contribution": 12.624204
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 97.7983,
+  "weight": 0.0943425,
+  "contribution": 9.22654
+ },
+ {
+  "index_date": "2026-08-11",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 97.9593,
+  "weight": 0.0981153,
+  "contribution": 9.611308
+ },
+ {
+  "index_date": "2026-08-11",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 99.8002,
+  "weight": 0.0922221,
+  "contribution": 9.203785
+ },
+ {
+  "index_date": "2026-08-11",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 98.7392,
+  "weight": 0.2072001,
+  "contribution": 20.458762
+ },
+ {
+  "index_date": "2026-08-11",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 97.5384,
+  "weight": 0.0956135,
+  "contribution": 9.32599
+ },
+ {
+  "index_date": "2026-08-11",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 98.1385,
+  "weight": 0.1593118,
+  "contribution": 15.634625
+ },
+ {
+  "index_date": "2026-08-11",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 98.016,
+  "weight": 0.121726,
+  "contribution": 11.931097
+ },
+ {
+  "index_date": "2026-08-11",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 97.8518,
+  "weight": 0.1314687,
+  "contribution": 12.864454
+ },
+ {
+  "index_date": "2026-08-11",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 97.3672,
+  "weight": 0.0943425,
+  "contribution": 9.185864
+ },
+ {
+  "index_date": "2026-08-12",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 99.9824,
+  "weight": 0.0981153,
+  "contribution": 9.809801
+ },
+ {
+  "index_date": "2026-08-12",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 98.166,
+  "weight": 0.0922221,
+  "contribution": 9.053071
+ },
+ {
+  "index_date": "2026-08-12",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 100.029,
+  "weight": 0.2072001,
+  "contribution": 20.726022
+ },
+ {
+  "index_date": "2026-08-12",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 99.6019,
+  "weight": 0.0956135,
+  "contribution": 9.523286
+ },
+ {
+  "index_date": "2026-08-12",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 100.1343,
+  "weight": 0.1593118,
+  "contribution": 15.952575
+ },
+ {
+  "index_date": "2026-08-12",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 97.825,
+  "weight": 0.121726,
+  "contribution": 11.907851
+ },
+ {
+  "index_date": "2026-08-12",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 99.5445,
+  "weight": 0.1314687,
+  "contribution": 13.086988
+ },
+ {
+  "index_date": "2026-08-12",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 98.9736,
+  "weight": 0.0943425,
+  "contribution": 9.337417
+ },
+ {
+  "index_date": "2026-08-13",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 104.3342,
+  "weight": 0.0981153,
+  "contribution": 10.236783
+ },
+ {
+  "index_date": "2026-08-13",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 103.0308,
+  "weight": 0.0922221,
+  "contribution": 9.501714
+ },
+ {
+  "index_date": "2026-08-13",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 103.3844,
+  "weight": 0.2072001,
+  "contribution": 21.42125
+ },
+ {
+  "index_date": "2026-08-13",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 104.3668,
+  "weight": 0.0956135,
+  "contribution": 9.978871
+ },
+ {
+  "index_date": "2026-08-13",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 104.5303,
+  "weight": 0.1593118,
+  "contribution": 16.652911
+ },
+ {
+  "index_date": "2026-08-13",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 102.8408,
+  "weight": 0.121726,
+  "contribution": 12.518399
+ },
+ {
+  "index_date": "2026-08-13",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 103.4396,
+  "weight": 0.1314687,
+  "contribution": 13.599068
+ },
+ {
+  "index_date": "2026-08-13",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 104.775,
+  "weight": 0.0943425,
+  "contribution": 9.884732
+ },
+ {
+  "index_date": "2026-08-14",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 102.0075,
+  "weight": 0.0981153,
+  "contribution": 10.008493
+ },
+ {
+  "index_date": "2026-08-14",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 102.0452,
+  "weight": 0.0922221,
+  "contribution": 9.410822
+ },
+ {
+  "index_date": "2026-08-14",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 104.4144,
+  "weight": 0.2072001,
+  "contribution": 21.634675
+ },
+ {
+  "index_date": "2026-08-14",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 102.0185,
+  "weight": 0.0956135,
+  "contribution": 9.75435
+ },
+ {
+  "index_date": "2026-08-14",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 102.8697,
+  "weight": 0.1593118,
+  "contribution": 16.388353
+ },
+ {
+  "index_date": "2026-08-14",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 102.3453,
+  "weight": 0.121726,
+  "contribution": 12.458082
+ },
+ {
+  "index_date": "2026-08-14",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 102.0837,
+  "weight": 0.1314687,
+  "contribution": 13.420807
+ },
+ {
+  "index_date": "2026-08-14",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 101.378,
+  "weight": 0.0943425,
+  "contribution": 9.564257
+ },
+ {
+  "index_date": "2026-08-15",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 101.8613,
+  "weight": 0.0981153,
+  "contribution": 9.994156
+ },
+ {
+  "index_date": "2026-08-15",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 101.4999,
+  "weight": 0.0922221,
+  "contribution": 9.360531
+ },
+ {
+  "index_date": "2026-08-15",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 102.9358,
+  "weight": 0.2072001,
+  "contribution": 21.328308
+ },
+ {
+  "index_date": "2026-08-15",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 101.3931,
+  "weight": 0.0956135,
+  "contribution": 9.694551
+ },
+ {
+  "index_date": "2026-08-15",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 102.7192,
+  "weight": 0.1593118,
+  "contribution": 16.364373
+ },
+ {
+  "index_date": "2026-08-15",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 100.7504,
+  "weight": 0.121726,
+  "contribution": 12.263943
+ },
+ {
+  "index_date": "2026-08-15",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 101.7456,
+  "weight": 0.1314687,
+  "contribution": 13.376359
+ },
+ {
+  "index_date": "2026-08-15",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 102.6911,
+  "weight": 0.0943425,
+  "contribution": 9.688132
+ },
+ {
+  "index_date": "2026-08-16",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 98.2842,
+  "weight": 0.0981153,
+  "contribution": 9.643182
+ },
+ {
+  "index_date": "2026-08-16",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 99.6306,
+  "weight": 0.0922221,
+  "contribution": 9.188144
+ },
+ {
+  "index_date": "2026-08-16",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 99.4602,
+  "weight": 0.2072001,
+  "contribution": 20.608156
+ },
+ {
+  "index_date": "2026-08-16",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 99.4793,
+  "weight": 0.0956135,
+  "contribution": 9.511566
+ },
+ {
+  "index_date": "2026-08-16",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 98.0966,
+  "weight": 0.1593118,
+  "contribution": 15.627939
+ },
+ {
+  "index_date": "2026-08-16",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 97.9483,
+  "weight": 0.121726,
+  "contribution": 11.922853
+ },
+ {
+  "index_date": "2026-08-16",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 97.8357,
+  "weight": 0.1314687,
+  "contribution": 12.862337
+ },
+ {
+  "index_date": "2026-08-16",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 96.7861,
+  "weight": 0.0943425,
+  "contribution": 9.131044
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 96.0672,
+  "weight": 0.0981153,
+  "contribution": 9.425663
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 93.5578,
+  "weight": 0.0922221,
+  "contribution": 8.628099
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 96.4164,
+  "weight": 0.2072001,
+  "contribution": 19.977496
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 97.376,
+  "weight": 0.0956135,
+  "contribution": 9.310459
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 96.5474,
+  "weight": 0.1593118,
+  "contribution": 15.381144
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 95.8582,
+  "weight": 0.121726,
+  "contribution": 11.66844
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 95.8916,
+  "weight": 0.1314687,
+  "contribution": 12.606738
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 95.6033,
+  "weight": 0.0943425,
+  "contribution": 9.019453
+ },
+ {
+  "index_date": "2026-08-18",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 98.9053,
+  "weight": 0.0981153,
+  "contribution": 9.704125
+ },
+ {
+  "index_date": "2026-08-18",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 97.3125,
+  "weight": 0.0922221,
+  "contribution": 8.974366
+ },
+ {
+  "index_date": "2026-08-18",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 99.8778,
+  "weight": 0.2072001,
+  "contribution": 20.694692
+ },
+ {
+  "index_date": "2026-08-18",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 99.7716,
+  "weight": 0.0956135,
+  "contribution": 9.539512
+ },
+ {
+  "index_date": "2026-08-18",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 98.4896,
+  "weight": 0.1593118,
+  "contribution": 15.690562
+ },
+ {
+  "index_date": "2026-08-18",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 97.1686,
+  "weight": 0.121726,
+  "contribution": 11.827946
+ },
+ {
+  "index_date": "2026-08-18",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 96.1065,
+  "weight": 0.1314687,
+  "contribution": 12.634991
+ },
+ {
+  "index_date": "2026-08-18",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 97.9967,
+  "weight": 0.0943425,
+  "contribution": 9.245253
+ },
+ {
+  "index_date": "2026-08-19",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 99.5993,
+  "weight": 0.0981153,
+  "contribution": 9.772213
+ },
+ {
+  "index_date": "2026-08-19",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 97.8216,
+  "weight": 0.0922221,
+  "contribution": 9.021311
+ },
+ {
+  "index_date": "2026-08-19",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 101.2172,
+  "weight": 0.2072001,
+  "contribution": 20.972207
+ },
+ {
+  "index_date": "2026-08-19",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 99.8197,
+  "weight": 0.0956135,
+  "contribution": 9.544107
+ },
+ {
+  "index_date": "2026-08-19",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 100.2004,
+  "weight": 0.1593118,
+  "contribution": 15.963104
+ },
+ {
+  "index_date": "2026-08-19",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 99.0419,
+  "weight": 0.121726,
+  "contribution": 12.05597
+ },
+ {
+  "index_date": "2026-08-19",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 99.2581,
+  "weight": 0.1314687,
+  "contribution": 13.049335
+ },
+ {
+  "index_date": "2026-08-19",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 99.3767,
+  "weight": 0.0943425,
+  "contribution": 9.375448
+ },
+ {
+  "index_date": "2026-08-20",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 102.7015,
+  "weight": 0.0981153,
+  "contribution": 10.076588
+ },
+ {
+  "index_date": "2026-08-20",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 101.8968,
+  "weight": 0.0922221,
+  "contribution": 9.397135
+ },
+ {
+  "index_date": "2026-08-20",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 102.0416,
+  "weight": 0.2072001,
+  "contribution": 21.143037
+ },
+ {
+  "index_date": "2026-08-20",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 102.0531,
+  "weight": 0.0956135,
+  "contribution": 9.75765
+ },
+ {
+  "index_date": "2026-08-20",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 103.3403,
+  "weight": 0.1593118,
+  "contribution": 16.463326
+ },
+ {
+  "index_date": "2026-08-20",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 103.3701,
+  "weight": 0.121726,
+  "contribution": 12.582833
+ },
+ {
+  "index_date": "2026-08-20",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 104.7169,
+  "weight": 0.1314687,
+  "contribution": 13.766992
+ },
+ {
+  "index_date": "2026-08-20",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 102.4278,
+  "weight": 0.0943425,
+  "contribution": 9.663294
+ },
+ {
+  "index_date": "2026-08-21",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 123.678,
+  "weight": 0.0981153,
+  "contribution": 12.134704
+ },
+ {
+  "index_date": "2026-08-21",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 122.5417,
+  "weight": 0.0922221,
+  "contribution": 11.301056
+ },
+ {
+  "index_date": "2026-08-21",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 122.7536,
+  "weight": 0.2072001,
+  "contribution": 25.434567
+ },
+ {
+  "index_date": "2026-08-21",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 126.3887,
+  "weight": 0.0956135,
+  "contribution": 12.084469
+ },
+ {
+  "index_date": "2026-08-21",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 124.3578,
+  "weight": 0.1593118,
+  "contribution": 19.81167
+ },
+ {
+  "index_date": "2026-08-21",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 120.9402,
+  "weight": 0.121726,
+  "contribution": 14.721562
+ },
+ {
+  "index_date": "2026-08-21",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 121.604,
+  "weight": 0.1314687,
+  "contribution": 15.987115
+ },
+ {
+  "index_date": "2026-08-21",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 122.3575,
+  "weight": 0.0943425,
+  "contribution": 11.543509
+ },
+ {
+  "index_date": "2026-08-22",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 137.5402,
+  "weight": 0.0981153,
+  "contribution": 13.494799
+ },
+ {
+  "index_date": "2026-08-22",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 138.3084,
+  "weight": 0.0922221,
+  "contribution": 12.75509
+ },
+ {
+  "index_date": "2026-08-22",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 136.9156,
+  "weight": 0.2072001,
+  "contribution": 28.368916
+ },
+ {
+  "index_date": "2026-08-22",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 136.9204,
+  "weight": 0.0956135,
+  "contribution": 13.091436
+ },
+ {
+  "index_date": "2026-08-22",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 137.7135,
+  "weight": 0.1593118,
+  "contribution": 21.939393
+ },
+ {
+  "index_date": "2026-08-22",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 138.1946,
+  "weight": 0.121726,
+  "contribution": 16.821871
+ },
+ {
+  "index_date": "2026-08-22",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 135.9408,
+  "weight": 0.1314687,
+  "contribution": 17.871965
+ },
+ {
+  "index_date": "2026-08-22",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 136.3098,
+  "weight": 0.0943425,
+  "contribution": 12.859812
+ },
+ {
+  "index_date": "2026-08-23",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 143.0528,
+  "weight": 0.0981153,
+  "contribution": 14.035664
+ },
+ {
+  "index_date": "2026-08-23",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 142.0192,
+  "weight": 0.0922221,
+  "contribution": 13.097309
+ },
+ {
+  "index_date": "2026-08-23",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 141.4968,
+  "weight": 0.2072001,
+  "contribution": 29.31816
+ },
+ {
+  "index_date": "2026-08-23",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 142.3017,
+  "weight": 0.0956135,
+  "contribution": 13.605963
+ },
+ {
+  "index_date": "2026-08-23",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 143.1863,
+  "weight": 0.1593118,
+  "contribution": 22.811266
+ },
+ {
+  "index_date": "2026-08-23",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 143.0818,
+  "weight": 0.121726,
+  "contribution": 17.416769
+ },
+ {
+  "index_date": "2026-08-23",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 142.6468,
+  "weight": 0.1314687,
+  "contribution": 18.75359
+ },
+ {
+  "index_date": "2026-08-23",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 143.5975,
+  "weight": 0.0943425,
+  "contribution": 13.547352
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 139.1258,
+  "weight": 0.0981153,
+  "contribution": 13.650372
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 137.977,
+  "weight": 0.0922221,
+  "contribution": 12.724526
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 138.1229,
+  "weight": 0.2072001,
+  "contribution": 28.619071
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 140.4006,
+  "weight": 0.0956135,
+  "contribution": 13.42419
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 137.9806,
+  "weight": 0.1593118,
+  "contribution": 21.981933
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 138.3431,
+  "weight": 0.121726,
+  "contribution": 16.839953
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 136.3176,
+  "weight": 0.1314687,
+  "contribution": 17.921497
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 139.5734,
+  "weight": 0.0943425,
+  "contribution": 13.167708
+ },
+ {
+  "index_date": "2026-08-25",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 132.9788,
+  "weight": 0.0981153,
+  "contribution": 13.047254
+ },
+ {
+  "index_date": "2026-08-25",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 134.9408,
+  "weight": 0.0922221,
+  "contribution": 12.444528
+ },
+ {
+  "index_date": "2026-08-25",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 132.2049,
+  "weight": 0.2072001,
+  "contribution": 27.392875
+ },
+ {
+  "index_date": "2026-08-25",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 134.9743,
+  "weight": 0.0956135,
+  "contribution": 12.905363
+ },
+ {
+  "index_date": "2026-08-25",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 133.5283,
+  "weight": 0.1593118,
+  "contribution": 21.27264
+ },
+ {
+  "index_date": "2026-08-25",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 130.8458,
+  "weight": 0.121726,
+  "contribution": 15.927335
+ },
+ {
+  "index_date": "2026-08-25",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 133.3595,
+  "weight": 0.1314687,
+  "contribution": 17.532604
+ },
+ {
+  "index_date": "2026-08-25",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 131.1354,
+  "weight": 0.0943425,
+  "contribution": 12.371639
+ },
+ {
+  "index_date": "2026-08-26",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 121.9663,
+  "weight": 0.0981153,
+  "contribution": 11.966758
+ },
+ {
+  "index_date": "2026-08-26",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 119.0453,
+  "weight": 0.0922221,
+  "contribution": 10.978605
+ },
+ {
+  "index_date": "2026-08-26",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 119.3547,
+  "weight": 0.2072001,
+  "contribution": 24.7303
+ },
+ {
+  "index_date": "2026-08-26",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 118.1771,
+  "weight": 0.0956135,
+  "contribution": 11.299328
+ },
+ {
+  "index_date": "2026-08-26",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 119.034,
+  "weight": 0.1593118,
+  "contribution": 18.963525
+ },
+ {
+  "index_date": "2026-08-26",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 117.3116,
+  "weight": 0.121726,
+  "contribution": 14.279866
+ },
+ {
+  "index_date": "2026-08-26",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 118.6057,
+  "weight": 0.1314687,
+  "contribution": 15.592941
+ },
+ {
+  "index_date": "2026-08-26",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 118.5713,
+  "weight": 0.0943425,
+  "contribution": 11.186312
+ },
+ {
+  "index_date": "2026-08-27",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 105.9713,
+  "weight": 0.0981153,
+  "contribution": 10.397405
+ },
+ {
+  "index_date": "2026-08-27",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 103.9554,
+  "weight": 0.0922221,
+  "contribution": 9.586981
+ },
+ {
+  "index_date": "2026-08-27",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 102.93,
+  "weight": 0.2072001,
+  "contribution": 21.32711
+ },
+ {
+  "index_date": "2026-08-27",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 104.0811,
+  "weight": 0.0956135,
+  "contribution": 9.951554
+ },
+ {
+  "index_date": "2026-08-27",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 103.8145,
+  "weight": 0.1593118,
+  "contribution": 16.538876
+ },
+ {
+  "index_date": "2026-08-27",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 102.679,
+  "weight": 0.121726,
+  "contribution": 12.498708
+ },
+ {
+  "index_date": "2026-08-27",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 103.3787,
+  "weight": 0.1314687,
+  "contribution": 13.591069
+ },
+ {
+  "index_date": "2026-08-27",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 106.5598,
+  "weight": 0.0943425,
+  "contribution": 10.053121
+ },
+ {
+  "index_date": "2026-08-28",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 102.5932,
+  "weight": 0.0981153,
+  "contribution": 10.065958
+ },
+ {
+  "index_date": "2026-08-28",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 104.2505,
+  "weight": 0.0922221,
+  "contribution": 9.614201
+ },
+ {
+  "index_date": "2026-08-28",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 102.5027,
+  "weight": 0.2072001,
+  "contribution": 21.238566
+ },
+ {
+  "index_date": "2026-08-28",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 103.46,
+  "weight": 0.0956135,
+  "contribution": 9.892174
+ },
+ {
+  "index_date": "2026-08-28",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 102.469,
+  "weight": 0.1593118,
+  "contribution": 16.32452
+ },
+ {
+  "index_date": "2026-08-28",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 100.8771,
+  "weight": 0.121726,
+  "contribution": 12.279363
+ },
+ {
+  "index_date": "2026-08-28",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 101.5512,
+  "weight": 0.1314687,
+  "contribution": 13.350808
+ },
+ {
+  "index_date": "2026-08-28",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 103.4352,
+  "weight": 0.0943425,
+  "contribution": 9.758335
+ },
+ {
+  "index_date": "2026-08-29",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 104.5693,
+  "weight": 0.0981153,
+  "contribution": 10.259844
+ },
+ {
+  "index_date": "2026-08-29",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 102.856,
+  "weight": 0.0922221,
+  "contribution": 9.485599
+ },
+ {
+  "index_date": "2026-08-29",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 101.5377,
+  "weight": 0.2072001,
+  "contribution": 21.038625
+ },
+ {
+  "index_date": "2026-08-29",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 101.1302,
+  "weight": 0.0956135,
+  "contribution": 9.669409
+ },
+ {
+  "index_date": "2026-08-29",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 102.4868,
+  "weight": 0.1593118,
+  "contribution": 16.32736
+ },
+ {
+  "index_date": "2026-08-29",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 102.7199,
+  "weight": 0.121726,
+  "contribution": 12.503679
+ },
+ {
+  "index_date": "2026-08-29",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 101.9738,
+  "weight": 0.1314687,
+  "contribution": 13.406362
+ },
+ {
+  "index_date": "2026-08-29",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 102.7566,
+  "weight": 0.0943425,
+  "contribution": 9.694316
+ },
+ {
+  "index_date": "2026-08-30",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 98.7162,
+  "weight": 0.0981153,
+  "contribution": 9.68557
+ },
+ {
+  "index_date": "2026-08-30",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 100.7003,
+  "weight": 0.0922221,
+  "contribution": 9.286795
+ },
+ {
+  "index_date": "2026-08-30",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 99.47,
+  "weight": 0.2072001,
+  "contribution": 20.610202
+ },
+ {
+  "index_date": "2026-08-30",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 99.0352,
+  "weight": 0.0956135,
+  "contribution": 9.469105
+ },
+ {
+  "index_date": "2026-08-30",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 98.255,
+  "weight": 0.1593118,
+  "contribution": 15.653182
+ },
+ {
+  "index_date": "2026-08-30",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 98.2476,
+  "weight": 0.121726,
+  "contribution": 11.959285
+ },
+ {
+  "index_date": "2026-08-30",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 98.7342,
+  "weight": 0.1314687,
+  "contribution": 12.980461
+ },
+ {
+  "index_date": "2026-08-30",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 98.5881,
+  "weight": 0.0943425,
+  "contribution": 9.301048
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 96.5861,
+  "weight": 0.0981153,
+  "contribution": 9.476571
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 95.9402,
+  "weight": 0.0922221,
+  "contribution": 8.847811
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 95.9698,
+  "weight": 0.2072001,
+  "contribution": 19.884957
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 97.5908,
+  "weight": 0.0956135,
+  "contribution": 9.330995
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 95.8313,
+  "weight": 0.1593118,
+  "contribution": 15.267052
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 95.3968,
+  "weight": 0.121726,
+  "contribution": 11.612273
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 99.1592,
+  "weight": 0.1314687,
+  "contribution": 13.036333
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 96.8314,
+  "weight": 0.0943425,
+  "contribution": 9.135314
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 98.4569,
+  "weight": 0.0981153,
+  "contribution": 9.660132
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 97.4546,
+  "weight": 0.0922221,
+  "contribution": 8.987472
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 98.7859,
+  "weight": 0.2072001,
+  "contribution": 20.468451
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 98.3451,
+  "weight": 0.0956135,
+  "contribution": 9.403121
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 96.5323,
+  "weight": 0.1593118,
+  "contribution": 15.378739
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 95.2925,
+  "weight": 0.121726,
+  "contribution": 11.599571
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 97.1199,
+  "weight": 0.1314687,
+  "contribution": 12.768221
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 98.0702,
+  "weight": 0.0943425,
+  "contribution": 9.252188
+ },
+ {
+  "index_date": "2026-09-02",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 100.7006,
+  "weight": 0.0981153,
+  "contribution": 9.880271
+ },
+ {
+  "index_date": "2026-09-02",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 99.3484,
+  "weight": 0.0922221,
+  "contribution": 9.162114
+ },
+ {
+  "index_date": "2026-09-02",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 99.1068,
+  "weight": 0.2072001,
+  "contribution": 20.534935
+ },
+ {
+  "index_date": "2026-09-02",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 99.4943,
+  "weight": 0.0956135,
+  "contribution": 9.512997
+ },
+ {
+  "index_date": "2026-09-02",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 98.4607,
+  "weight": 0.1593118,
+  "contribution": 15.685947
+ },
+ {
+  "index_date": "2026-09-02",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 99.8612,
+  "weight": 0.121726,
+  "contribution": 12.155708
+ },
+ {
+  "index_date": "2026-09-02",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 97.6622,
+  "weight": 0.1314687,
+  "contribution": 12.839523
+ },
+ {
+  "index_date": "2026-09-02",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 99.5461,
+  "weight": 0.0943425,
+  "contribution": 9.391426
+ },
+ {
+  "index_date": "2026-09-03",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 103.1431,
+  "weight": 0.0981153,
+  "contribution": 10.119921
+ },
+ {
+  "index_date": "2026-09-03",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 105.3291,
+  "weight": 0.0922221,
+  "contribution": 9.713667
+ },
+ {
+  "index_date": "2026-09-03",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 103.834,
+  "weight": 0.2072001,
+  "contribution": 21.51442
+ },
+ {
+  "index_date": "2026-09-03",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 104.3117,
+  "weight": 0.0956135,
+  "contribution": 9.97361
+ },
+ {
+  "index_date": "2026-09-03",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 105.1867,
+  "weight": 0.1593118,
+  "contribution": 16.757488
+ },
+ {
+  "index_date": "2026-09-03",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 102.471,
+  "weight": 0.121726,
+  "contribution": 12.473384
+ },
+ {
+  "index_date": "2026-09-03",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 102.1679,
+  "weight": 0.1314687,
+  "contribution": 13.431887
+ },
+ {
+  "index_date": "2026-09-03",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 104.1729,
+  "weight": 0.0943425,
+  "contribution": 9.827934
+ },
+ {
+  "index_date": "2026-09-04",
+  "frequency": "daily",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 101.7495,
+  "weight": 0.0981153,
+  "contribution": 9.983184
+ },
+ {
+  "index_date": "2026-09-04",
+  "frequency": "daily",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 102.297,
+  "weight": 0.0922221,
+  "contribution": 9.434044
+ },
+ {
+  "index_date": "2026-09-04",
+  "frequency": "daily",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 101.0069,
+  "weight": 0.2072001,
+  "contribution": 20.928633
+ },
+ {
+  "index_date": "2026-09-04",
+  "frequency": "daily",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 104.4086,
+  "weight": 0.0956135,
+  "contribution": 9.982873
+ },
+ {
+  "index_date": "2026-09-04",
+  "frequency": "daily",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 105.3916,
+  "weight": 0.1593118,
+  "contribution": 16.79013
+ },
+ {
+  "index_date": "2026-09-04",
+  "frequency": "daily",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 102.0934,
+  "weight": 0.121726,
+  "contribution": 12.427423
+ },
+ {
+  "index_date": "2026-09-04",
+  "frequency": "daily",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 102.3867,
+  "weight": 0.1314687,
+  "contribution": 13.460643
+ },
+ {
+  "index_date": "2026-09-04",
+  "frequency": "daily",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 102.0308,
+  "weight": 0.0943425,
+  "contribution": 9.625844
+ },
+ {
+  "index_date": "2026-07-01",
+  "frequency": "monthly",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 100.423,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-01",
+  "frequency": "monthly",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 100.3879,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-01",
+  "frequency": "monthly",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 100.2769,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-01",
+  "frequency": "monthly",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 100.2601,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-01",
+  "frequency": "monthly",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 100.2459,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-01",
+  "frequency": "monthly",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 100.0973,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-01",
+  "frequency": "monthly",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 100.2528,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-01",
+  "frequency": "monthly",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 100.3204,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "monthly",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 106.401,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "monthly",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 106.4228,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "monthly",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 106.5542,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "monthly",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 106.7334,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "monthly",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 106.5161,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "monthly",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 105.7571,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "monthly",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 106.1256,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "monthly",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 106.392,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "monthly",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 101.0126,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "monthly",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 101.1073,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "monthly",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 100.6834,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "monthly",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 101.6399,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "monthly",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 101.3928,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "monthly",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 99.9295,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "monthly",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 99.8342,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "monthly",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 100.955,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-06-29",
+  "frequency": "weekly",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 101.2875,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-06-29",
+  "frequency": "weekly",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 101.4681,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-06-29",
+  "frequency": "weekly",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 101.0607,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-06-29",
+  "frequency": "weekly",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 101.4312,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-06-29",
+  "frequency": "weekly",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 101.997,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-06-29",
+  "frequency": "weekly",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 101.3188,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-06-29",
+  "frequency": "weekly",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 100.4834,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-06-29",
+  "frequency": "weekly",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 101.0955,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "weekly",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 100.2335,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "weekly",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 99.9009,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "weekly",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 100.267,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "weekly",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 99.9584,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "weekly",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 99.8811,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "weekly",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 100.0275,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "weekly",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 100.2995,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "weekly",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 100.1038,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "weekly",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 99.8796,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "weekly",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 100.753,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "weekly",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 100.029,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "weekly",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 99.8441,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "weekly",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 99.6808,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "weekly",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 100.2874,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "weekly",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 100.2219,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "weekly",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 100.2234,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "weekly",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 100.086,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "weekly",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 99.9335,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "weekly",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 100.0357,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "weekly",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 100.2276,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "weekly",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 100.3438,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "weekly",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 99.8671,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "weekly",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 100.2207,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "weekly",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 100.2587,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "weekly",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 100.5556,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "weekly",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 100.2188,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "weekly",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 100.215,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "weekly",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 100.4818,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "weekly",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 99.9916,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "weekly",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 99.4374,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "weekly",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 100.1149,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "weekly",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 100.4792,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "weekly",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 99.4266,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "weekly",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 100.7658,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "weekly",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 100.4641,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "weekly",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 100.1189,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "weekly",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 99.9863,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "weekly",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 99.455,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "weekly",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 100.2204,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "weekly",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 100.0374,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "weekly",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 99.9691,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "weekly",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 99.952,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "weekly",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 100.9389,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "weekly",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 100.2492,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "weekly",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 100.4596,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "weekly",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 99.6138,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "weekly",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 99.7893,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "weekly",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 99.967,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "weekly",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 114.5063,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "weekly",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 113.3511,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "weekly",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 114.3884,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "weekly",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 114.9473,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "weekly",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 114.8336,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "weekly",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 113.9508,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "weekly",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 113.7378,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "weekly",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 113.9528,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "weekly",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 115.1315,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "weekly",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 114.8179,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "weekly",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 113.7318,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "weekly",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 114.4655,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "weekly",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 113.9383,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "weekly",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 113.0034,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "weekly",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 113.4173,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "weekly",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 114.3743,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "weekly",
+  "route_code": "BLR-BOM",
+  "origin": "BLR",
+  "destination": "BOM",
+  "index_value": 100.1273,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "weekly",
+  "route_code": "BLR-CCU",
+  "origin": "BLR",
+  "destination": "CCU",
+  "index_value": 100.0739,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "weekly",
+  "route_code": "BLR-DEL",
+  "origin": "BLR",
+  "destination": "DEL",
+  "index_value": 99.7407,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "weekly",
+  "route_code": "BLR-HYD",
+  "origin": "BLR",
+  "destination": "HYD",
+  "index_value": 100.8301,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "weekly",
+  "route_code": "BOM-DEL",
+  "origin": "BOM",
+  "destination": "DEL",
+  "index_value": 100.2805,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "weekly",
+  "route_code": "CCU-DEL",
+  "origin": "CCU",
+  "destination": "DEL",
+  "index_value": 99.023,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "weekly",
+  "route_code": "DEL-HYD",
+  "origin": "DEL",
+  "destination": "HYD",
+  "index_value": 99.6992,
+  "weight": 0.0,
+  "contribution": 0.0
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "weekly",
+  "route_code": "DEL-MAA",
+  "origin": "DEL",
+  "destination": "MAA",
+  "index_value": 100.1303,
+  "weight": 0.0,
+  "contribution": 0.0
+ }
+]

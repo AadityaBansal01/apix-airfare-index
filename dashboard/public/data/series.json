@@ -1,0 +1,634 @@
+[
+ {
+  "index_date": "2026-07-01",
+  "frequency": "daily",
+  "index_value": 99.5098,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-02",
+  "frequency": "daily",
+  "index_value": 103.7501,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-03",
+  "frequency": "daily",
+  "index_value": 102.4095,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-04",
+  "frequency": "daily",
+  "index_value": 101.6959,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-05",
+  "frequency": "daily",
+  "index_value": 98.9543,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "daily",
+  "index_value": 96.4298,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-07",
+  "frequency": "daily",
+  "index_value": 98.1169,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-08",
+  "frequency": "daily",
+  "index_value": 98.874,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-09",
+  "frequency": "daily",
+  "index_value": 103.647,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-10",
+  "frequency": "daily",
+  "index_value": 102.3032,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-11",
+  "frequency": "daily",
+  "index_value": 101.9147,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-12",
+  "frequency": "daily",
+  "index_value": 99.4054,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "daily",
+  "index_value": 97.1455,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-14",
+  "frequency": "daily",
+  "index_value": 97.0453,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-15",
+  "frequency": "daily",
+  "index_value": 98.9087,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-16",
+  "frequency": "daily",
+  "index_value": 103.6656,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-17",
+  "frequency": "daily",
+  "index_value": 102.4542,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-18",
+  "frequency": "daily",
+  "index_value": 102.671,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-19",
+  "frequency": "daily",
+  "index_value": 98.6916,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "daily",
+  "index_value": 95.9514,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-21",
+  "frequency": "daily",
+  "index_value": 97.0929,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-22",
+  "frequency": "daily",
+  "index_value": 99.46,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-23",
+  "frequency": "daily",
+  "index_value": 103.8994,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-24",
+  "frequency": "daily",
+  "index_value": 102.7737,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-25",
+  "frequency": "daily",
+  "index_value": 102.0938,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-26",
+  "frequency": "daily",
+  "index_value": 99.5931,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "daily",
+  "index_value": 96.3926,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-28",
+  "frequency": "daily",
+  "index_value": 98.2521,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-29",
+  "frequency": "daily",
+  "index_value": 99.1875,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-30",
+  "frequency": "daily",
+  "index_value": 103.7928,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-31",
+  "frequency": "daily",
+  "index_value": 102.4118,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "daily",
+  "index_value": 102.0646,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-02",
+  "frequency": "daily",
+  "index_value": 98.9893,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "daily",
+  "index_value": 96.0754,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-04",
+  "frequency": "daily",
+  "index_value": 98.0165,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-05",
+  "frequency": "daily",
+  "index_value": 99.1827,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-06",
+  "frequency": "daily",
+  "index_value": 103.3411,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-07",
+  "frequency": "daily",
+  "index_value": 103.0248,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-08",
+  "frequency": "daily",
+  "index_value": 101.8474,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-09",
+  "frequency": "daily",
+  "index_value": 99.1131,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "daily",
+  "index_value": 96.8321,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-11",
+  "frequency": "daily",
+  "index_value": 98.2159,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-12",
+  "frequency": "daily",
+  "index_value": 99.397,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-13",
+  "frequency": "daily",
+  "index_value": 103.7937,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-14",
+  "frequency": "daily",
+  "index_value": 102.6398,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-15",
+  "frequency": "daily",
+  "index_value": 102.0704,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-16",
+  "frequency": "daily",
+  "index_value": 98.4952,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "daily",
+  "index_value": 96.0175,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-18",
+  "frequency": "daily",
+  "index_value": 98.3114,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-19",
+  "frequency": "daily",
+  "index_value": 99.7537,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-20",
+  "frequency": "daily",
+  "index_value": 102.8509,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-21",
+  "frequency": "daily",
+  "index_value": 123.0187,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-22",
+  "frequency": "daily",
+  "index_value": 137.2033,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-23",
+  "frequency": "daily",
+  "index_value": 142.5861,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "daily",
+  "index_value": 138.3292,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-25",
+  "frequency": "daily",
+  "index_value": 132.8942,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-26",
+  "frequency": "daily",
+  "index_value": 118.9976,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-27",
+  "frequency": "daily",
+  "index_value": 103.9448,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-28",
+  "frequency": "daily",
+  "index_value": 102.5239,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-29",
+  "frequency": "daily",
+  "index_value": 102.3852,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-30",
+  "frequency": "daily",
+  "index_value": 98.9456,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "daily",
+  "index_value": 96.5913,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "daily",
+  "index_value": 97.5179,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-09-02",
+  "frequency": "daily",
+  "index_value": 99.1629,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-09-03",
+  "frequency": "daily",
+  "index_value": 103.8123,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-09-04",
+  "frequency": "daily",
+  "index_value": 102.6328,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-01",
+  "frequency": "monthly",
+  "index_value": 100.274,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-01",
+  "frequency": "monthly",
+  "index_value": 106.3694,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-09-01",
+  "frequency": "monthly",
+  "index_value": 100.7815,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-06-29",
+  "frequency": "weekly",
+  "index_value": 101.2639,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-06",
+  "frequency": "weekly",
+  "index_value": 100.0987,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-13",
+  "frequency": "weekly",
+  "index_value": 100.0831,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-20",
+  "frequency": "weekly",
+  "index_value": 100.1235,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-07-27",
+  "frequency": "weekly",
+  "index_value": 100.1558,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-03",
+  "frequency": "weekly",
+  "index_value": 100.0859,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-10",
+  "frequency": "weekly",
+  "index_value": 100.2063,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-17",
+  "frequency": "weekly",
+  "index_value": 114.2488,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-24",
+  "frequency": "weekly",
+  "index_value": 114.003,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ },
+ {
+  "index_date": "2026-08-31",
+  "frequency": "weekly",
+  "index_value": 99.9434,
+  "n_cells": 40,
+  "coverage_ratio": 1.0,
+  "observed_pax_share": 0.0829
+ }
+]

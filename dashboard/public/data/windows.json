@@ -1,0 +1,32 @@
+[
+ {
+  "window_days": 1,
+  "label": "T+1",
+  "weight": 0.2,
+  "weight_basis": "equal-weight (assumption)"
+ },
+ {
+  "window_days": 7,
+  "label": "T+7",
+  "weight": 0.2,
+  "weight_basis": "equal-weight (assumption)"
+ },
+ {
+  "window_days": 15,
+  "label": "T+15",
+  "weight": 0.2,
+  "weight_basis": "equal-weight (assumption)"
+ },
+ {
+  "window_days": 30,
+  "label": "T+30",
+  "weight": 0.2,
+  "weight_basis": "equal-weight (assumption)"
+ },
+ {
+  "window_days": 45,
+  "label": "T+45",
+  "weight": 0.2,
+  "weight_basis": "equal-weight (assumption)"
+ }
+]

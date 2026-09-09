@@ -1,0 +1,322 @@
+[
+ {
+  "route_code": "BLR-BOM",
+  "window_days": 1,
+  "n": 738,
+  "mean_fare": 6736.39,
+  "min_fare": 4875.0,
+  "median_fare": 6611.5
+ },
+ {
+  "route_code": "BLR-BOM",
+  "window_days": 7,
+  "n": 735,
+  "mean_fare": 5639.84,
+  "min_fare": 4091.0,
+  "median_fare": 5550.0
+ },
+ {
+  "route_code": "BLR-BOM",
+  "window_days": 15,
+  "n": 753,
+  "mean_fare": 4741.3,
+  "min_fare": 3410.0,
+  "median_fare": 4660.0
+ },
+ {
+  "route_code": "BLR-BOM",
+  "window_days": 30,
+  "n": 728,
+  "mean_fare": 3988.14,
+  "min_fare": 2878.0,
+  "median_fare": 3917.0
+ },
+ {
+  "route_code": "BLR-BOM",
+  "window_days": 45,
+  "n": 734,
+  "mean_fare": 3708.76,
+  "min_fare": 2668.0,
+  "median_fare": 3640.5
+ },
+ {
+  "route_code": "BLR-CCU",
+  "window_days": 1,
+  "n": 737,
+  "mean_fare": 9599.91,
+  "min_fare": 6975.0,
+  "median_fare": 9500.0
+ },
+ {
+  "route_code": "BLR-CCU",
+  "window_days": 7,
+  "n": 741,
+  "mean_fare": 7912.1,
+  "min_fare": 5780.0,
+  "median_fare": 7747.0
+ },
+ {
+  "route_code": "BLR-CCU",
+  "window_days": 15,
+  "n": 748,
+  "mean_fare": 6563.58,
+  "min_fare": 4779.0,
+  "median_fare": 6441.0
+ },
+ {
+  "route_code": "BLR-CCU",
+  "window_days": 30,
+  "n": 752,
+  "mean_fare": 5497.08,
+  "min_fare": 4006.0,
+  "median_fare": 5408.0
+ },
+ {
+  "route_code": "BLR-CCU",
+  "window_days": 45,
+  "n": 741,
+  "mean_fare": 5133.74,
+  "min_fare": 3709.0,
+  "median_fare": 5060.0
+ },
+ {
+  "route_code": "BLR-DEL",
+  "window_days": 1,
+  "n": 753,
+  "mean_fare": 9911.59,
+  "min_fare": 7196.0,
+  "median_fare": 9789.0
+ },
+ {
+  "route_code": "BLR-DEL",
+  "window_days": 7,
+  "n": 770,
+  "mean_fare": 7673.63,
+  "min_fare": 5524.0,
+  "median_fare": 7550.0
+ },
+ {
+  "route_code": "BLR-DEL",
+  "window_days": 15,
+  "n": 740,
+  "mean_fare": 6058.81,
+  "min_fare": 4418.0,
+  "median_fare": 5972.0
+ },
+ {
+  "route_code": "BLR-DEL",
+  "window_days": 30,
+  "n": 731,
+  "mean_fare": 4930.38,
+  "min_fare": 3570.0,
+  "median_fare": 4851.0
+ },
+ {
+  "route_code": "BLR-DEL",
+  "window_days": 45,
+  "n": 747,
+  "mean_fare": 4652.31,
+  "min_fare": 3431.0,
+  "median_fare": 4570.0
+ },
+ {
+  "route_code": "BLR-HYD",
+  "window_days": 1,
+  "n": 745,
+  "mean_fare": 4709.96,
+  "min_fare": 3409.0,
+  "median_fare": 4643.0
+ },
+ {
+  "route_code": "BLR-HYD",
+  "window_days": 7,
+  "n": 752,
+  "mean_fare": 4127.75,
+  "min_fare": 2967.0,
+  "median_fare": 4042.0
+ },
+ {
+  "route_code": "BLR-HYD",
+  "window_days": 15,
+  "n": 759,
+  "mean_fare": 3613.28,
+  "min_fare": 2614.0,
+  "median_fare": 3548.0
+ },
+ {
+  "route_code": "BLR-HYD",
+  "window_days": 30,
+  "n": 737,
+  "mean_fare": 3130.69,
+  "min_fare": 2252.0,
+  "median_fare": 3090.0
+ },
+ {
+  "route_code": "BLR-HYD",
+  "window_days": 45,
+  "n": 740,
+  "mean_fare": 2949.64,
+  "min_fare": 2119.0,
+  "median_fare": 2912.0
+ },
+ {
+  "route_code": "BOM-DEL",
+  "window_days": 1,
+  "n": 745,
+  "mean_fare": 9629.83,
+  "min_fare": 6988.0,
+  "median_fare": 9523.0
+ },
+ {
+  "route_code": "BOM-DEL",
+  "window_days": 7,
+  "n": 728,
+  "mean_fare": 7185.73,
+  "min_fare": 5219.0,
+  "median_fare": 7039.0
+ },
+ {
+  "route_code": "BOM-DEL",
+  "window_days": 15,
+  "n": 734,
+  "mean_fare": 5572.72,
+  "min_fare": 4014.0,
+  "median_fare": 5483.0
+ },
+ {
+  "route_code": "BOM-DEL",
+  "window_days": 30,
+  "n": 736,
+  "mean_fare": 4511.76,
+  "min_fare": 3288.0,
+  "median_fare": 4444.0
+ },
+ {
+  "route_code": "BOM-DEL",
+  "window_days": 45,
+  "n": 735,
+  "mean_fare": 4287.74,
+  "min_fare": 3153.0,
+  "median_fare": 4218.0
+ },
+ {
+  "route_code": "CCU-DEL",
+  "window_days": 1,
+  "n": 719,
+  "mean_fare": 9445.02,
+  "min_fare": 6795.0,
+  "median_fare": 9344.0
+ },
+ {
+  "route_code": "CCU-DEL",
+  "window_days": 7,
+  "n": 739,
+  "mean_fare": 7760.33,
+  "min_fare": 5574.0,
+  "median_fare": 7595.0
+ },
+ {
+  "route_code": "CCU-DEL",
+  "window_days": 15,
+  "n": 748,
+  "mean_fare": 6441.78,
+  "min_fare": 4686.0,
+  "median_fare": 6324.0
+ },
+ {
+  "route_code": "CCU-DEL",
+  "window_days": 30,
+  "n": 744,
+  "mean_fare": 5312.01,
+  "min_fare": 3819.0,
+  "median_fare": 5231.0
+ },
+ {
+  "route_code": "CCU-DEL",
+  "window_days": 45,
+  "n": 733,
+  "mean_fare": 4957.48,
+  "min_fare": 3563.0,
+  "median_fare": 4884.0
+ },
+ {
+  "route_code": "DEL-HYD",
+  "window_days": 1,
+  "n": 764,
+  "mean_fare": 9859.45,
+  "min_fare": 7114.0,
+  "median_fare": 9691.0
+ },
+ {
+  "route_code": "DEL-HYD",
+  "window_days": 7,
+  "n": 733,
+  "mean_fare": 7787.32,
+  "min_fare": 5650.0,
+  "median_fare": 7634.0
+ },
+ {
+  "route_code": "DEL-HYD",
+  "window_days": 15,
+  "n": 733,
+  "mean_fare": 6213.28,
+  "min_fare": 4479.0,
+  "median_fare": 6126.0
+ },
+ {
+  "route_code": "DEL-HYD",
+  "window_days": 30,
+  "n": 736,
+  "mean_fare": 5103.73,
+  "min_fare": 3685.0,
+  "median_fare": 5021.5
+ },
+ {
+  "route_code": "DEL-HYD",
+  "window_days": 45,
+  "n": 739,
+  "mean_fare": 4784.16,
+  "min_fare": 3482.0,
+  "median_fare": 4701.0
+ },
+ {
+  "route_code": "DEL-MAA",
+  "window_days": 1,
+  "n": 752,
+  "mean_fare": 10797.54,
+  "min_fare": 7914.0,
+  "median_fare": 10673.5
+ },
+ {
+  "route_code": "DEL-MAA",
+  "window_days": 7,
+  "n": 737,
+  "mean_fare": 8632.49,
+  "min_fare": 6265.0,
+  "median_fare": 8436.0
+ },
+ {
+  "route_code": "DEL-MAA",
+  "window_days": 15,
+  "n": 743,
+  "mean_fare": 6946.81,
+  "min_fare": 5023.0,
+  "median_fare": 6854.0
+ },
+ {
+  "route_code": "DEL-MAA",
+  "window_days": 30,
+  "n": 735,
+  "mean_fare": 5702.06,
+  "min_fare": 4131.0,
+  "median_fare": 5604.0
+ },
+ {
+  "route_code": "DEL-MAA",
+  "window_days": 45,
+  "n": 763,
+  "mean_fare": 5328.48,
+  "min_fare": 3852.0,
+  "median_fare": 5261.0
+ }
+]
