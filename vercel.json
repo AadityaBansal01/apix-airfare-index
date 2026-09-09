@@ -1,10 +1,12 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "builds": [
-    { "src": "api/index.py", "use": "@vercel/python" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "api/index.py" }
+  "framework": "vite",
+  "outputDirectory": "dashboard/dist",
+  "rewrites": [
+    { "source": "/v1/(.*)", "destination": "/api/index" },
+    { "source": "/health(.*)", "destination": "/api/index" },
+    { "source": "/docs(.*)", "destination": "/api/index" },
+    { "source": "/openapi.json", "destination": "/api/index" }
   ],
   "env": {
     "APIX_DISABLE_POOL": "true"
