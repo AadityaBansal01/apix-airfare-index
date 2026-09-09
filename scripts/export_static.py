@@ -289,7 +289,7 @@ def export(out_dir: Path) -> dict[str, int]:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", type=Path,
-                    default=REPO / "dashboard/public/data")
+                    default=REPO / "public/data")
     args = ap.parse_args()
     counts = export(args.out)
     width = max(len(k) for k in counts)
