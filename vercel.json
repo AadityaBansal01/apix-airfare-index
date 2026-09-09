@@ -1,7 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "vite",
-  "outputDirectory": "dashboard/dist",
   "rewrites": [
     { "source": "/v1/(.*)", "destination": "/api/index" },
     { "source": "/health(.*)", "destination": "/api/index" },
