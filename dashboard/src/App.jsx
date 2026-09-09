@@ -170,7 +170,14 @@ export default function App() {
                 <span className="dot" /> Seeded data
               </span>
             )}
-            <a className="topbar-api" href="/docs">API</a>
+            {/* The deployed dashboard is a static export with no backend, so
+                "/docs" would fall through the SPA rewrite to the landing page.
+                The API is real and documented; it just runs locally against
+                PostgreSQL, so this points at the documentation rather than at a
+                route that does not exist here. */}
+            <a className="topbar-api"
+               href="https://github.com/TushKum/apix-airfare-index/blob/main/docs/API.md"
+               target="_blank" rel="noopener noreferrer">API docs</a>
           </div>
         </div>
       </header>

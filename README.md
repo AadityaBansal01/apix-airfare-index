@@ -8,6 +8,9 @@ same elementary and upper-level formulas as India's CPI 2024 series (Jevons, the
 Young / modified Laspeyres) with weights from DGCA passenger traffic, so it could
 augment the CPI Transport division rather than sit beside it as a curiosity.
 
+**Live dashboard: https://apix-india.vercel.app**
+· [Methodology](docs/METHODOLOGY.md) · [Source audit](docs/SOURCE_AUDIT.md) · [API](docs/API.md)
+
 An independent prototype. Not affiliated with, endorsed by, or published by
 MoSPI, DGCA, or any airline named here.
 
