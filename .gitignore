@@ -13,3 +13,4 @@ data/raw/pages/
 # machine-local, not part of the project
 .claude/settings.local.json
 .DS_Store
+.vercel

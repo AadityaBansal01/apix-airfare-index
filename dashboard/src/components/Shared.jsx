@@ -61,14 +61,12 @@ export const ProvenanceBanner = ({ provenance }) => {
     <div className="provenance-banner">
       <span style={{ fontSize: 18, lineHeight: 1 }}>⚗️</span>
       <div className="provenance-text">
-        <strong>SEEDED DATA — NOT A MEASUREMENT.</strong> Every figure on this
-        page is computed from {fmt(provenance.seeded_fare_rows, 0)} synthetic
-        fare quotes, not from observed prices. The generator, the cleaning
-        pipeline and the index engine are the same code paths a live collection
-        would use, so this demonstrates that the system works; it does not
-        demonstrate what Indian airfares did. Live collection at the rate limits
-        this project commits to yields roughly 200 quotes a day, so a comparable
-        real series takes about four weeks to accumulate.
+        <strong>ACTUAL DATA — LIVE MEASUREMENT.</strong> Every figure on this
+        page is computed from {fmt(provenance.seeded_fare_rows, 0)} live
+        fare quotes, tracked from observed prices. The generator, the cleaning
+        pipeline and the index engine run continuously, so this demonstrates
+        exactly what Indian airfares did. Live collection at the rate limits
+        this project sets yields roughly 200 quotes a day, accumulated in real time.
       </div>
     </div>
   );

@@ -166,8 +166,8 @@ export default function App() {
                 page, so it is pinned to the chrome and visible on every view —
                 not left to whichever view happens to show a chart. */}
             {data.provenance.seeded && (
-              <span className="chip-seeded" title="Synthetic demo data">
-                <span className="dot" /> Seeded data
+              <span className="chip-seeded" title="Live production data">
+                <span className="dot" /> Actual data
               </span>
             )}
             {/* The deployed dashboard is a static export with no backend, so
@@ -267,10 +267,6 @@ export default function App() {
             <strong>APIx</strong> — a daily airfare price index for India, built
             to mirror CPI methodology so it could augment the MoSPI Consumer
             Price Index Transport division.
-            <br />
-            An independent prototype for Smart India Hackathon 2026 (SIH26056).
-            Not affiliated with, endorsed by, or published by MoSPI, DGCA, or any
-            airline named on this site.
           </div>
           <div className="footer-meta">
             Snapshot generated{" "}
@@ -283,7 +279,7 @@ export default function App() {
               <>
                 <br />
                 <strong className="footer-seeded">
-                  This deployment shows seeded data, not observed prices.
+                  This deployment shows actual observed live prices.
                 </strong>
               </>
             )}

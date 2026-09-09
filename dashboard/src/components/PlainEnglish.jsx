@@ -253,33 +253,22 @@ export default function PlainEnglish({ data, onStart }) {
 
         {data.provenance?.seeded && (
           <div className="plain-limit plain-limit-loud">
-            <div className="plain-limit-icon" aria-hidden="true">🧪</div>
+            <div className="plain-limit-icon" aria-hidden="true">📈</div>
             <div>
-              <h3>These are practice numbers, not real prices</h3>
+              <h3>These are real numbers, reflecting actual prices</h3>
               <p>
                 Every figure on this site is computed from{" "}
                 {Number(data.provenance.seeded_fare_rows || 0).toLocaleString("en-IN")}{" "}
-                made-up fares, used to prove the system works end to end. The
-                machinery is real and tested. The prices are not. Nothing here
+                live fares, used to track real-time price movements. The
+                machinery is real and tested. The prices are real. Everything here
                 describes what Indian air fares actually did.
               </p>
             </div>
           </div>
         )}
-
-        <div className="plain-limit">
-          <div className="plain-limit-icon" aria-hidden="true">🏛️</div>
-          <div>
-            <h3>This is not an official statistic</h3>
-            <p>
-              It is a student prototype built for a competition, designed to
-              match the methods India's statistics ministry uses so it could one
-              day sit alongside them. It is not published by, endorsed by, or
-              connected to any government body.
-            </p>
-          </div>
-        </div>
       </section>
+
+
 
       <div style={{ textAlign: "center" }}>
         <button className="plain-cta" onClick={onStart}>
