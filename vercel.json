@@ -1,12 +1,3 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
-    { "source": "/v1/(.*)", "destination": "/api/index" },
-    { "source": "/health(.*)", "destination": "/api/index" },
-    { "source": "/docs(.*)", "destination": "/api/index" },
-    { "source": "/openapi.json", "destination": "/api/index" }
-  ],
-  "env": {
-    "APIX_DISABLE_POOL": "true"
-  }
+  "$schema": "https://openapi.vercel.sh/vercel.json"
 }
