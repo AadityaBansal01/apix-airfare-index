@@ -31,7 +31,7 @@ const MONTH = (iso) =>
   new Date(iso + (iso.length === 7 ? "-01" : "") + "T00:00:00Z").toLocaleDateString(
     "en-IN", { month: "long", year: "numeric", timeZone: "UTC" });
 
-export default function PlainEnglish({ data }) {
+export default function PlainEnglish({ data, onStart }) {
   const daily = seriesFor(data.series, "daily");
   const latest = daily[daily.length - 1];
   const first = daily[0];
@@ -99,7 +99,8 @@ export default function PlainEnglish({ data }) {
           than they did in July.
         </h1>
         <p className="plain-hero-sub">
-          That is the average across six busy routes, measured every day since{" "}
+          That is the average across {(data.basket || []).length} busy routes,
+          measured every day since{" "}
           {longDate(first.index_date)}. Last updated {longDate(latest.index_date)}.
         </p>
         {money && (
@@ -163,18 +164,18 @@ export default function PlainEnglish({ data }) {
                 <AreaChart data={chart} margin={{ top: 10, right: 12, left: -18, bottom: 0 }}>
                   <defs>
                     <linearGradient id="plainFill" x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="0%" stopColor="#1F3A34" stopOpacity={0.24} />
-                      <stop offset="100%" stopColor="#1F3A34" stopOpacity={0.02} />
+                      <stop offset="0%" stopColor="#0a72d8" stopOpacity={0.24} />
+                      <stop offset="100%" stopColor="#0a72d8" stopOpacity={0.02} />
                     </linearGradient>
                   </defs>
                   <XAxis dataKey="date" tickFormatter={shortDate}
-                         stroke="#7C8D87" fontSize={11} minTickGap={40} />
+                         stroke="#7a8aa0" fontSize={11} minTickGap={40} />
                   {/* Recharts anchors an area chart's y-axis at zero by
                       default, which here means -100% and squashes the whole
                       series into a flat band near the top. The movement IS the
                       story, so the domain is pinned to the data with a small
                       margin. */}
-                  <YAxis stroke="#7C8D87" fontSize={11}
+                  <YAxis stroke="#7a8aa0" fontSize={11}
                          domain={[
                            (min) => Math.floor((min - 3) / 5) * 5,
                            (max) => Math.ceil((max + 3) / 5) * 5,
@@ -186,15 +187,15 @@ export default function PlainEnglish({ data }) {
                       `${v - 100 >= 0 ? "+" : ""}${fmt(v - 100, 1)}% vs July`, "Price level"]}
                     contentStyle={{ borderRadius: 8, fontSize: 12,
                                     border: "1px solid #dfe5dc" }} />
-                  <ReferenceLine y={100} stroke="#7C8D87" strokeDasharray="4 4"
+                  <ReferenceLine y={100} stroke="#7a8aa0" strokeDasharray="4 4"
                                  label={{ value: "normal", position: "left",
-                                          fontSize: 10, fill: "#7C8D87" }} />
-                  <Area type="monotone" dataKey="value" stroke="#1F3A34"
+                                          fontSize: 10, fill: "#7a8aa0" }} />
+                  <Area type="monotone" dataKey="value" stroke="#0a72d8"
                         strokeWidth={2} fill="url(#plainFill)"
                         isAnimationActive={false} />
                   {peakPoint && (
                     <ReferenceDot x={peakPoint.date} y={peakPoint.value} r={5}
-                                  fill="#C4703E" stroke="#fff" strokeWidth={2} />
+                                  fill="#c4321f" stroke="#fff" strokeWidth={2} />
                   )}
                 </AreaChart>
               </ResponsiveContainer>
@@ -280,11 +281,17 @@ export default function PlainEnglish({ data }) {
         </div>
       </section>
 
-      <p className="plain-footer-note">
-        Want the detail? The other tabs show the sector-by-sector breakdown, the
-        booking-window curve, the exact formulas, and a full log of which
-        websites were contacted and which were deliberately left alone.
-      </p>
+      <div style={{ textAlign: "center" }}>
+        <button className="plain-cta" onClick={onStart}>
+          See fares sector by sector
+          <span aria-hidden="true">→</span>
+        </button>
+        <p className="plain-footer-note" style={{ marginTop: 14 }}>
+          The other tabs show the booking-window curve, the exact formulas, a
+          forecast we tested and rejected, and a full log of which websites were
+          contacted and which were deliberately left alone.
+        </p>
+      </div>
     </div>
   );
 }

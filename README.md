@@ -3,7 +3,7 @@
 Response to Smart India Hackathon 2026 Problem Statement **SIH26056**,
 "Real-time Airfare Price Index", MoSPI (DIID).
 
-A daily, weighted airfare price index for six Indian trunk routes. It uses the
+A daily, weighted airfare price index for eight Indian trunk routes. It uses the
 same elementary and upper-level formulas as India's CPI 2024 series (Jevons, then
 Young / modified Laspeyres) with weights from DGCA passenger traffic, so it could
 augment the CPI Transport division rather than sit beside it as a curiosity.
@@ -66,9 +66,39 @@ below come from `make evidence`, which contacts the live origins.
 
 ---
 
+## Collecting on a schedule
+
+```bash
+make scrape-plan   # what a cycle would collect, and how long it would take. No network.
+make scrape        # run one cycle over the route x window matrix
+make backfill      # assess yesterday; re-run it if recoverable, record the gap if not
+make cron          # print the crontab that runs all of the above daily at 02:00 IST
+```
+
+`make scrape-plan` reaches no network at all and prints the same plan object the
+runner executes, so it cannot describe something other than what would happen:
+
+```
+collection plan for 2026-09-09
+  cells        : 80
+  sources      : akasa, spicejet
+  est. runtime : 6.0 min (360s, sources run concurrently)
+```
+
+**A missed day cannot be backfilled, and `backfill` refuses to pretend otherwise.**
+A fare is a price quoted at a moment for a departure a fixed number of days away.
+If Friday's cycle never ran, the T+7 price for a Friday-plus-7 departure as it
+stood on Friday is gone; asking today returns a T+3 price, which belongs in a
+different cell and is systematically higher. So `backfill` re-runs only a date
+that is still today. For anything older it writes the missing cells as
+`outcome='missed'`, and the index engine's existing imputation path carries them
+with the published coverage ratio falling to match. See METHODOLOGY.md §5.1.
+
+---
+
 ## What it does
 
-Collects airfares daily across six trunk routes and five advance-purchase
+Collects airfares daily across eight trunk routes and five advance-purchase
 windows, cleans them, and computes a price index that mirrors MoSPI methodology:
 **Jevons** at the elementary level (a geometric average of price changes),
 **Young / modified Laspeyres** above it (fixed weights from an earlier period),
@@ -154,24 +184,25 @@ verbatim, in [docs/SOURCE_AUDIT.md](docs/SOURCE_AUDIT.md).
 
 ```
 apix/
-  ethics/      robots.txt matcher (RFC 9309), audit log, compliance gate
-  net/         rate limiter, crawler identity, policy-enforced session
-  sources/     FareSource interface + Akasa Air adapter
-  pipeline/    cleaning, outlier detection, persistence
-  index/       Jevons elementary, Young aggregation, build orchestration
-  validation/  back-test metrics and the validation suite
-  analytics/   lead-time and anomaly helpers
-  reference/   DGCA and MoSPI reference-data loaders
-  api/         FastAPI service (read-only)
-  cli.py       seed / base / index / series commands
-  seed.py      synthetic fare generator for the demo
+  ethics/        robots.txt matcher (RFC 9309), audit log, compliance gate
+  net/           rate limiter, crawler identity, policy-enforced session
+  sources/       FareSource interface + Akasa Air and SpiceJet adapters
+  orchestration/ the daily cycle: plan, runner, backfill, schedule
+  pipeline/      cleaning, outlier detection, persistence
+  index/         Jevons elementary, Young aggregation, index build
+  validation/    back-test metrics and the validation suite
+  analytics/     lead-time elasticity, anomaly detection, nowcast evaluation
+  reference/     DGCA and MoSPI reference-data loaders
+  api/           FastAPI service (read-only)
+  cli.py         scrape / backfill / schedule / seed / base / index / series / nowcast
+  seed.py        synthetic fare generator for the demo
 api/           Vercel serverless entry point, wraps apix/api
 config/        basket, weights, per-source scraping policy
 db/schema.sql  PostgreSQL schema; constraints enforce the methodology
 dashboard/     React + Recharts, static export
 docs/          methodology, source audit, deployment, dashboard, API
 scripts/       weights, seeding, export, back-test, reference loaders
-tests/         276 tests (58 need a database)
+tests/         385 tests (2 skip without a database)
 ```
 
 ---
@@ -231,7 +262,7 @@ stored.
 ## What this does not yet do
 
 1. **No real fares have been collected.** The pipeline is real and tested; the
-   prices are not. The basket is 6 routes times 5 advance windows, 30 cells a
+   prices are not. The basket is 8 routes times 5 advance windows, 40 cells a
    day, one carrier at present, which is roughly 180 quotes a day. Reaching the
    30-day minimum the problem statement asks for therefore takes about four
    weeks; matching this demo's 66-day span takes just over two months. The

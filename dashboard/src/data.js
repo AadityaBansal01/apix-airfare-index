@@ -12,7 +12,8 @@ export async function loadAll() {
   const names = [
     "series", "routes", "leadtime", "leadtime_fares",
     "compliance", "sources", "basket", "windows", "provenance",
-    "cpi", "cpi_dispersion", "leadtime_fit", "anomalies",
+    "cpi", "cpi_dispersion", "leadtime_fit", "anomalies", "nowcast",
+    "fares_daily",
   ];
   const parts = await Promise.all(
     names.map(async (n) => {
@@ -189,9 +190,9 @@ export function surgeDates(anomalies) {
  * Neutral is the warm off-white of the design ground so an at-base cell reads
  * as "nothing to see"; green is cheaper than base, red-brown dearer. Both ends
  * are taken from the design tokens rather than picked ad hoc. */
-const HEAT_NEUTRAL = [232, 228, 214];  // --apix-viz-neutral
-const HEAT_BELOW = [78, 140, 106];     // --apix-viz-below, cheaper than base
-const HEAT_ABOVE = [196, 112, 62];     // --apix-viz-above, dearer than base
+const HEAT_NEUTRAL = [238, 241, 245];  // --viz-neutral
+const HEAT_BELOW = [20, 135, 90];      // --viz-below, cheaper than base
+const HEAT_ABOVE = [196, 50, 31];      // --viz-above, dearer than base
 
 export function heatColour(value) {
   const t = Math.max(-1, Math.min(1, (value - 100) / 40));
@@ -202,21 +203,22 @@ export function heatColour(value) {
 }
 
 export function heatTextColour(value) {
-  return Math.abs(value - 100) > 14 ? "#fff" : "#1F3A34";
+  return Math.abs(value - 100) > 14 ? "#fff" : "#0f1e35";
 }
 
-/* Categorical series colours for the per-route lead-time chart, taken from the
- * design tokens (--apix-series-1..6). Ordered so adjacent lines differ in
- * lightness as well as hue: six sectors overlap heavily at the long-window end,
- * and hue alone would not separate them for a viewer who cannot distinguish
- * red from green. */
+/* Categorical series colours, taken from the design tokens (--series-1..8).
+ * Ordered so adjacent lines differ in lightness as well as hue: eight sectors
+ * overlap heavily at the long-window end, and hue alone would not separate them
+ * for a viewer who cannot distinguish red from green. */
 export const ROUTE_SERIES_COLOURS = [
-  "#1F3A34", // deep green
-  "#D9A441", // gold
-  "#4E8C6A", // mid green
-  "#C4703E", // terracotta
-  "#5B7FA6", // slate blue
-  "#8A7CA8", // muted violet
+  "#0a72d8", // blue
+  "#f26a2e", // orange
+  "#14875a", // green
+  "#7c3aed", // violet
+  "#0891b2", // cyan
+  "#c4321f", // red
+  "#b45309", // amber
+  "#64748b", // slate
 ];
 
 
@@ -339,3 +341,73 @@ export function leadtimeFitChart(leadtimeFares, fit, routeCode) {
 
 export const fitFor = (fits, routeCode) =>
   (fits || []).find((f) => f.route_code === routeCode) || null;
+
+
+/* ------------------------------------------------------------- nowcast
+ *
+ * The scoreboard from apix/analytics/nowcast.py. Shipped even though its verdict
+ * is negative: a rejected model is a result, and showing the test that rejected
+ * it is the point. Nothing is recomputed here.
+ */
+export function nowcastByHorizon(nowcast) {
+  const scores = nowcast?.scores || [];
+  const horizons = [...new Set(scores.map((s) => s.horizon))].sort((a, b) => a - b);
+  return horizons.map((h) => {
+    const at = scores.filter((s) => s.horizon === h).sort((a, b) => a.mase - b.mase);
+    const bestBaseline = at.filter((s) => s.is_baseline)[0] || null;
+    return {
+      horizon: h,
+      rows: at.map((s) => ({
+        ...s,
+        /* The bar a model has to clear is the best BASELINE at the same
+         * horizon, never MASE 1.0 — the MASE denominator is a fixed one-step
+         * scale, so at h=1 nearly everything scores under 1 including models
+         * that lose outright. */
+        margin: bestBaseline && !s.is_baseline
+          ? (bestBaseline.mase - s.mase) / bestBaseline.mase : null,
+        isBestBaseline: bestBaseline && s.model === bestBaseline.model,
+      })),
+      bestBaseline,
+    };
+  });
+}
+
+
+/* Observed mean fare for one sector and booking window, by observation day.
+ *
+ * Returns a lookup, not a series, because the fare calendar asks the question
+ * one day at a time. Missing days return null and the calendar falls back to the
+ * index value: a day with no observation for THIS cell still has a headline.
+ */
+export function dailyFareLookup(faresDaily, routeCode, windowDays) {
+  const m = new Map();
+  for (const r of faresDaily || []) {
+    if (r.route_code === routeCode && r.window_days === windowDays) {
+      m.set(String(r.scrape_date).slice(0, 10), Number(r.mean_fare));
+    }
+  }
+  return (iso) => (m.has(iso) ? m.get(iso) : null);
+}
+
+
+/* The elementary index for one sector and booking window, by day.
+ *
+ * Used so a fare-calendar tile is internally consistent: when it shows rupees
+ * for BLR-DEL at T+7, the percentage beside them must describe BLR-DEL at T+7
+ * too, not the whole basket. Putting a sector's fare next to the basket's
+ * movement is two different populations on one tile, and a reader has no way to
+ * see that from the tile.
+ *
+ * This reads `leadtime.json`, which Python already computed: the elementary
+ * index is that cell against its own July base, so `index_value - 100` IS the
+ * percentage change. No arithmetic happens here.
+ */
+export function cellIndexLookup(leadtime, routeCode, windowDays) {
+  const m = new Map();
+  for (const r of leadtime || []) {
+    if (r.route_code === routeCode && r.window_days === windowDays) {
+      m.set(String(r.index_date).slice(0, 10), Number(r.index_value));
+    }
+  }
+  return (iso) => (m.has(iso) ? m.get(iso) : null);
+}

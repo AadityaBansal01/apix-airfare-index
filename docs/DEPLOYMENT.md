@@ -17,7 +17,7 @@ belong somewhere else.
 
 Three independent blockers, any one of which is fatal.
 
-**Execution time.** One collection cycle is 6 routes times 5 windows, with a
+**Execution time.** One collection cycle is 8 routes times 5 windows per source, with a
 deliberate 8-second delay between requests. That is roughly 4 minutes of
 deliberate waiting per source, by design, because the politeness floor is the
 entire ethical argument. Vercel functions cap at 60 seconds on Pro and 300 on

@@ -42,6 +42,7 @@ import {
   leadtimePremium,
   longDate,
   monthlyBlindSpot,
+  nowcastByHorizon,
   periodChange,
   pct,
   routeDates,
@@ -52,8 +53,8 @@ import {
   worstBlindSpot,
 } from "../data";
 
-const axis = { stroke: "#7C8D87", fontSize: 11 };
-const gridProps = { stroke: "#e4e9e1", vertical: false };
+const axis = { stroke: "#7a8aa0", fontSize: 11 };
+const gridProps = { stroke: "#e3e8ef", vertical: false };
 
 const tooltipStyle = {
   contentStyle: {
@@ -66,7 +67,7 @@ const tooltipStyle = {
 
 /* ============================================================== OVERVIEW */
 
-export function Overview({ data, frequency }) {
+export function Overview({ data, frequency, date, onDate }) {
   const rows = seriesFor(data.series, frequency);
   const latest = rows[rows.length - 1];
   // Episodes come from apix/analytics/anomaly.py via anomalies.json. Nothing
@@ -141,8 +142,8 @@ export function Overview({ data, frequency }) {
           <AreaChart data={rows} margin={{ top: 6, right: 12, left: -12, bottom: 0 }}>
             <defs>
               <linearGradient id="apixFill" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stopColor="#1F3A34" stopOpacity={0.26} />
-                <stop offset="100%" stopColor="#1F3A34" stopOpacity={0.02} />
+                <stop offset="0%" stopColor="#0a72d8" stopOpacity={0.26} />
+                <stop offset="100%" stopColor="#0a72d8" stopOpacity={0.02} />
               </linearGradient>
             </defs>
             <CartesianGrid {...gridProps} />
@@ -162,19 +163,19 @@ export function Overview({ data, frequency }) {
             />
             <ReferenceLine
               y={100}
-              stroke="#7C8D87"
+              stroke="#7a8aa0"
               strokeDasharray="4 4"
               label={{
                 value: "base 100",
                 position: "insideTopRight",
                 fontSize: 10,
-                fill: "#7C8D87",
+                fill: "#7a8aa0",
               }}
             />
             <Area
               type="monotone"
               dataKey="index_value"
-              stroke="#1F3A34"
+              stroke="#0a72d8"
               strokeWidth={2.4}
               fill="url(#apixFill)"
               isAnimationActive={false}
@@ -186,7 +187,7 @@ export function Overview({ data, frequency }) {
                     cx={props.cx}
                     cy={props.cy}
                     r={4.5}
-                    fill="#A33B24"
+                    fill="#c4321f"
                     stroke="#fff"
                     strokeWidth={1.5}
                   />
@@ -253,9 +254,10 @@ export function Overview({ data, frequency }) {
 
 /* ================================================================ ROUTES */
 
-export function Routes({ data, frequency }) {
+export function Routes({ data, frequency, date, onPick, selectedRoute }) {
   const dates = routeDates(data.routes, frequency);
-  const latestDate = dates[dates.length - 1];
+  // Honour the shared observation date; fall back to the latest built day.
+  const latestDate = date && dates.includes(date) ? date : dates[dates.length - 1];
   const rows = routeMatrix(data.routes, frequency, latestDate);
 
   const heatDates = dates.slice(-14);
@@ -296,8 +298,8 @@ export function Routes({ data, frequency }) {
                     key={code + d}
                     className="heat-cell num"
                     style={{
-                      background: v ? heatColour(v) : "#F6F8F3",
-                      color: v ? heatTextColour(v) : "#b6c0ba",
+                      background: v ? heatColour(v) : "#f7f9fc",
+                      color: v ? heatTextColour(v) : "#a8b4c4",
                     }}
                     title={v ? `${code} · ${longDate(d)} · ${fmt(v)}` : "no data"}
                   >
@@ -407,9 +409,9 @@ export function Routes({ data, frequency }) {
                     <Tooltip {...tooltipStyle}
                       labelFormatter={(v) => `T+${v}`}
                       formatter={(v, n) => [rupees(v), n === "fitted" ? "Fitted" : "Observed mean"]} />
-                    <Line type="monotone" dataKey="fitted" stroke="#1F3A34"
+                    <Line type="monotone" dataKey="fitted" stroke="#0a72d8"
                           strokeWidth={2} dot={false} isAnimationActive={false} />
-                    <Scatter dataKey="observed" fill="#D9A441" shape="circle" r={4}
+                    <Scatter dataKey="observed" fill="#f26a2e" shape="circle" r={4}
                               isAnimationActive={false} />
                   </ComposedChart>
                 </ResponsiveContainer>
@@ -442,7 +444,7 @@ export function Routes({ data, frequency }) {
 
 /* ============================================================= LEAD TIME */
 
-export function LeadTime({ data }) {
+export function LeadTime({ data, route, window: win, onWindow, onPick }) {
   const chart = leadtimeChartData(data.leadtime_fares);
   const premium = leadtimePremium(data.leadtime_fares);
   const codes = [...new Set(data.leadtime_fares.map((r) => r.route_code))];
@@ -548,9 +550,9 @@ export function LeadTime({ data }) {
                     <Tooltip {...tooltipStyle}
                       labelFormatter={(v) => `T+${v}`}
                       formatter={(v, n) => [rupees(v), n === "fitted" ? "Fitted" : "Observed mean"]} />
-                    <Line type="monotone" dataKey="fitted" stroke="#1F3A34"
+                    <Line type="monotone" dataKey="fitted" stroke="#0a72d8"
                           strokeWidth={2} dot={false} isAnimationActive={false} />
-                    <Scatter dataKey="observed" fill="#D9A441" shape="circle" r={4}
+                    <Scatter dataKey="observed" fill="#f26a2e" shape="circle" r={4}
                               isAnimationActive={false} />
                   </ComposedChart>
                 </ResponsiveContainer>
@@ -629,7 +631,7 @@ export function Compliance({ data }) {
                     </Badge>
                   </td>
                   <td>{tiers[s.tier] || "—"}</td>
-                  <td style={{ fontSize: 12, color: "#7C8D87", maxWidth: 380 }}>
+                  <td style={{ fontSize: 12, color: "#7a8aa0", maxWidth: 380 }}>
                     {s.exclusion_reason || (s.enabled ? "Collected within rate limits" : "—")}
                   </td>
                 </tr>
@@ -698,14 +700,14 @@ export function Methodology({ data }) {
             <strong>Elementary aggregate</strong> — one route × advance window,
             over carriers. Jevons, the geometric mean of price relatives:
           </div>
-          <div style={{ paddingLeft: 14, color: "#1F3A34" }}>
+          <div style={{ paddingLeft: 14, color: "#0a72d8" }}>
             I(r,w,t) = 100 × ∏<sub>c</sub> ( p(c,t) / p(c,0) )<sup>1/N</sup>
           </div>
           <div style={{ margin: "14px 0 10px" }}>
             <strong>Upper level</strong> — across cells, weighted by DGCA
             passenger traffic. Young / modified Laspeyres:
           </div>
-          <div style={{ paddingLeft: 14, color: "#1F3A34" }}>
+          <div style={{ paddingLeft: 14, color: "#0a72d8" }}>
             APIx(t) = Σ ω(r,w) × I(r,w,t) ÷ Σ ω(r,w)
           </div>
         </Formula>
@@ -763,7 +765,7 @@ export function Methodology({ data }) {
 
       <Card
         title="Basket"
-        note="Six trunk sectors by DGCA passenger traffic, each collected at five advance-purchase windows."
+        note="Eight trunk sectors by DGCA passenger traffic, each collected at five advance-purchase windows."
       >
         <div className="table-scroll">
           <table>
@@ -914,12 +916,12 @@ export function CpiOverlay({ data }) {
                   : n === "monthly" ? "Monthly aggregate"
                   : "Mid-month sample"}
             />
-            <ReferenceLine y={100} stroke="#7C8D87" strokeDasharray="4 4" />
-            <Line type="monotone" dataKey="apix" stroke="#1F3A34" strokeWidth={2}
+            <ReferenceLine y={100} stroke="#7a8aa0" strokeDasharray="4 4" />
+            <Line type="monotone" dataKey="apix" stroke="#0a72d8" strokeWidth={2}
                   dot={false} isAnimationActive={false} />
-            <Line type="stepAfter" dataKey="monthly" stroke="#D9A441" strokeWidth={2}
+            <Line type="stepAfter" dataKey="monthly" stroke="#f26a2e" strokeWidth={2}
                   dot={false} isAnimationActive={false} connectNulls />
-            <Line type="stepAfter" dataKey="sampled" stroke="#C4703E" strokeWidth={1.5}
+            <Line type="stepAfter" dataKey="sampled" stroke="#c4321f" strokeWidth={1.5}
                   strokeDasharray="5 4" dot={false} isAnimationActive={false} connectNulls />
           </LineChart>
         </ResponsiveContainer>
@@ -985,10 +987,10 @@ export function CpiOverlay({ data }) {
                 formatter={(v, n) => [fmt(v), n === "apix" ? "APIx (rebased)" : "CPI Transport (rebased)"]} />
               <Legend wrapperStyle={{ fontSize: 11 }}
                 formatter={(n) => (n === "apix" ? "APIx, monthly" : "CPI Division 07 Transport")} />
-              <ReferenceLine y={100} stroke="#7C8D87" strokeDasharray="4 4" />
-              <Line type="monotone" dataKey="apix" stroke="#1F3A34" strokeWidth={2}
+              <ReferenceLine y={100} stroke="#7a8aa0" strokeDasharray="4 4" />
+              <Line type="monotone" dataKey="apix" stroke="#0a72d8" strokeWidth={2}
                     dot={{ r: 3 }} isAnimationActive={false} />
-              <Line type="monotone" dataKey="cpi" stroke="#8A7CA8" strokeWidth={2}
+              <Line type="monotone" dataKey="cpi" stroke="#94a3b8" strokeWidth={2}
                     strokeDasharray="6 4" dot={{ r: 3 }} isAnimationActive={false} />
             </LineChart>
           </ResponsiveContainer>
@@ -1019,6 +1021,179 @@ export function CpiOverlay({ data }) {
             </p>
           </div>
         )}
+      </Card>
+    </>
+  );
+}
+
+/* ============================================================== NOWCAST
+ *
+ * A view whose whole content is a negative result.
+ *
+ * It exists because a project that only ships the components that worked is not
+ * one a statistical office should trust with a price index. The honest finding —
+ * that nothing beats "tomorrow will be like today" at this sample size — is more
+ * useful to a reader than a forecast line drawn on a chart would have been, and
+ * the scoreboard shows the test that established it.
+ */
+export function Nowcast({ data }) {
+  const nc = data.nowcast;
+  const byH = nowcastByHorizon(nc);
+  const negative = (nc?.recommendation || "").startsWith("NO NOWCAST");
+
+  if (!nc || !nc.scores?.length) {
+    return (
+      <Card title="Forecast evaluation">
+        <p className="card-note">
+          Not enough history to evaluate a nowcast. {nc?.recommendation}
+        </p>
+      </Card>
+    );
+  }
+
+  return (
+    <>
+      <ProvenanceBanner provenance={data.provenance} />
+
+      <div className={`verdict ${negative ? "verdict-no" : "verdict-yes"}`}>
+        <div className="verdict-tag">{negative ? "Result: no" : "Result: yes"}</div>
+        <h2 className="verdict-line">
+          {negative
+            ? "We tried to forecast tomorrow's index. Nothing beat guessing “the same as today”."
+            : "A forecast model earned its place."}
+        </h2>
+        <p className="verdict-body">{nc.recommendation}</p>
+      </div>
+
+      <Card
+        title="What was tested"
+        note="Three baselines and two models, scored the same way. The baselines are not straw men: a price series is close to a random walk, so “tomorrow equals today” is genuinely hard to beat, and airfares have a real weekly cycle, so “the same weekday last week” is the right bar at a week out."
+      >
+        <div className="model-grid">
+          {[
+            ["naive", "baseline", "Tomorrow equals today. The random walk."],
+            ["seasonal_naive", "baseline", "Tomorrow equals the same weekday last week."],
+            ["drift", "baseline", "Random walk plus the average historical slope."],
+            ["damped_trend", "model", "Holt's linear method with damping, so the trend flattens instead of extrapolating forever. Three parameters, grid-fitted."],
+            ["seasonal_damped_trend", "model", "The same, on a series with the weekly shape removed and added back."],
+          ].map(([name, kind, desc]) => (
+            <div className={`model-card model-${kind}`} key={name}>
+              <div className="model-head">
+                <code>{name}</code>
+                <span className={`badge badge-${kind === "model" ? "info" : "grey"}`}>
+                  {kind}
+                </span>
+              </div>
+              <p>{desc}</p>
+            </div>
+          ))}
+        </div>
+      </Card>
+
+      {byH.map(({ horizon, rows, bestBaseline }) => (
+        <Card
+          key={horizon}
+          title={horizon === 1 ? "One day ahead" : `${horizon} days ahead`}
+          right={<Badge kind={rows.some((r) => !r.is_baseline && r.margin > 0.05)
+            ? "warn" : "grey"}>
+            {rows[0]?.n_forecasts} rolling-origin forecasts
+          </Badge>}
+          note="Lower MASE is better. The bar every model has to clear is the best baseline in this table, not the value 1.0 — the MASE scale is fixed at one step, so at a one-day horizon almost everything scores below 1 including models that lose outright."
+        >
+          <div className="table-scroll">
+            <table className="table">
+              <thead>
+                <tr>
+                  <th>Method</th>
+                  <th className="right">MAE</th>
+                  <th className="right">RMSE</th>
+                  <th className="right">MASE</th>
+                  <th>Verdict</th>
+                </tr>
+              </thead>
+              <tbody>
+                {rows.map((r) => {
+                  const wins = r.margin != null && r.margin > 0.05;
+                  const loses = r.margin != null && r.margin <= 0;
+                  return (
+                    <tr key={r.model}
+                        className={r.isBestBaseline ? "row-best" : ""}>
+                      <td>
+                        <code className="model-name">{r.model}</code>
+                        {r.is_baseline && (
+                          <span className="badge badge-grey">baseline</span>
+                        )}
+                      </td>
+                      <td className="right num">{fmt(r.mae, 3)}</td>
+                      <td className="right num">{fmt(r.rmse, 3)}</td>
+                      <td className="right num" style={{ fontWeight: 700 }}>
+                        {fmt(r.mase, 3)}
+                      </td>
+                      <td>
+                        {r.isBestBaseline ? (
+                          <span className="verdict-pill pill-best">best baseline</span>
+                        ) : r.is_baseline ? (
+                          <span className="verdict-pill pill-flat">baseline</span>
+                        ) : wins ? (
+                          <span className="verdict-pill pill-win">
+                            beats {bestBaseline?.model} by {pct(r.margin, 0)}
+                          </span>
+                        ) : loses ? (
+                          <span className="verdict-pill pill-lose">
+                            loses to {bestBaseline?.model} by {pct(-r.margin, 0)}
+                          </span>
+                        ) : (
+                          <span className="verdict-pill pill-flat">
+                            ties {bestBaseline?.model}, inside the noise
+                          </span>
+                        )}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+
+          {horizon === 1 && (
+            <p className="card-note callout-warn">
+              <strong>Why the apparent winner was still rejected.</strong> At one
+              day ahead <code>seasonal_damped_trend</code> beats{" "}
+              <code>naive</code> on mean absolute error and <em>loses to it on
+              RMSE</em>. That combination means it is usually closer and
+              occasionally much further out — a heavier error tail — and the tail
+              falls at turning points, which is exactly when anyone reads a
+              nowcast. Publishing the MAE win alone would be choosing the metric
+              that flatters.
+            </p>
+          )}
+        </Card>
+      ))}
+
+      <Card title="How it was scored">
+        <p className="card-note">
+          <strong>Rolling origin, not one split.</strong> A single train/test
+          split on a {nc.n_observations}-point series measures luck. Every origin
+          from day {nc.min_train} onward produces a forecast and is scored, so
+          each number above is a mean over dozens of forecasts. Each origin fits
+          on data strictly before it, so no model ever sees the value it is asked
+          to predict — <code>tests/test_nowcast.py</code> asserts that, because a
+          leak would be invisible in the output and would turn the whole exercise
+          into a tautology.
+        </p>
+        <p className="card-note">
+          <strong>MASE</strong> is mean absolute error scaled by the in-sample
+          one-step seasonal-naive error, which makes it comparable across
+          horizons and across a rebased series in a way raw RMSE is not.
+        </p>
+        <p className="card-note">
+          <strong>Two caveats that matter more than the numbers.</strong> This is
+          seeded data, so the test measures whether these methods can track a
+          series with the generator's dynamics — not whether they forecast Indian
+          airfares. And {nc.n_observations} observations is a short series for a
+          forecasting comparison, which is why a margin under 5% was treated as
+          no improvement at all.
+        </p>
       </Card>
     </>
   );

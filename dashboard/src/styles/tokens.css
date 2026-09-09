@@ -1,94 +1,116 @@
-/* APIx design tokens, from the reference UI supplied 2026-09-04.
+/* APIx design tokens — travel-booking visual language.
  *
- * The reference is a flight-BOOKING dashboard. APIx is a statistical index
- * dashboard, so the visual language transfers and the information architecture
- * does not: we have no search bar, no fare cards, no "Book now". The mapping
- * from reference element to APIx element is in docs/DASHBOARD.md.
+ * WHY THIS LOOKS LIKE A BOOKING SITE
+ * ----------------------------------
+ * The people this has to land with are not price statisticians. They are judges,
+ * officials and journalists who have all bought a flight online, and none of whom
+ * have read a CPI methodology note. Borrowing the interface grammar they already
+ * own — a from/to selector with a swap button, a fare calendar strip, a row of
+ * results with a big rupee figure on the right — means the page explains itself
+ * before anyone reads a word of it.
+ *
+ * What is NOT borrowed is the intent. There is no cart, no "Book now", no
+ * urgency copy, no seat-scarcity nudge. Every control selects what you are
+ * LOOKING at; none of them sells anything. A dark pattern rendered in a
+ * statistics dashboard would still be a dark pattern.
  */
 :root {
-  /* --- surface --- */
-  --apix-bg:            #EEF1EA;  /* page ground, warm off-white */
-  --apix-surface:       #FFFFFF;  /* cards */
-  --apix-surface-sunk:  #F6F8F3;  /* inset wells, table stripes */
+  /* --- surface ------------------------------------------------------- */
+  --bg:              #f2f4f7;   /* page ground */
+  --surface:         #ffffff;   /* cards */
+  --surface-sunk:    #f7f9fc;   /* wells, table stripes */
+  --surface-tint:    #eef4fd;   /* selected rows, soft blue fills */
+  --border:          #e3e8ef;
+  --border-strong:   #cbd5e1;
 
-  /* --- brand green --- */
-  --apix-ink:           #1F3A34;  /* darkest, sidebar + dark panels */
-  --apix-ink-2:         #2C4F45;  /* hover on dark */
-  --apix-ink-3:         #3D6459;  /* dark panel dividers */
+  /* --- navy chrome ---------------------------------------------------- */
+  --navy:            #0a1f44;   /* header, footer */
+  --navy-2:          #14315f;   /* header gradient end */
+  --navy-3:          #1e4680;   /* dividers on dark */
 
-  /* --- accent gold --- */
-  --apix-accent:        #D9A441;
-  --apix-accent-hover:  #C49133;
-  --apix-accent-soft:   #F5E7C8;  /* tinted fills, selected chips */
+  /* --- primary blue --------------------------------------------------- */
+  --blue:            #0a72d8;
+  --blue-hover:      #0860b8;
+  --blue-soft:       #e3f0fd;
+  --blue-ring:       rgba(10, 114, 216, 0.18);
 
-  /* --- text --- */
-  --apix-text:          #1F3A34;
-  --apix-text-muted:    #7C8D87;
-  --apix-text-on-dark:  #F2F5F0;
-  --apix-text-on-dark-muted: #9FB3AB;
+  /* --- accent: the CTA gradient, saffron into deep orange -------------- */
+  --accent:          #f26a2e;
+  --accent-2:        #e8480f;
+  --accent-soft:     #fff0e8;
 
-  /* --- data viz -----------------------------------------------------
-   * Sequential ramp for the sector heatmap runs green (cheap) -> gold ->
-   * red (expensive). Diverging, because a price index has a meaningful
-   * midpoint at 100. Categorical series are for the route lines.
+  /* --- semantic: cheaper is green, dearer is red. Never the reverse. --- */
+  --down:            #14875a;   /* index below base / fare drop */
+  --down-soft:       #e6f5ee;
+  --up:              #c4321f;   /* index above base / fare rise */
+  --up-soft:         #fdecea;
+  --flat:            #64748b;
+  --warn:            #b45309;
+  --seeded:          #7c3aed;   /* synthetic-data badge. Never green, never blue. */
+
+  /* --- text ------------------------------------------------------------ */
+  --text:            #0f1e35;
+  --text-2:          #46566e;
+  --text-muted:      #7a8aa0;
+  --text-on-dark:    #ffffff;
+  --text-on-dark-2:  #a8bcd8;
+
+  /* --- data viz --------------------------------------------------------
+   * Diverging around 100, because a price index has a meaningful midpoint:
+   * the reference period. Sequential would hide that the scale has a centre.
    */
-  --apix-viz-below:     #4E8C6A;  /* index < 100 */
-  --apix-viz-neutral:   #E8E4D6;  /* index == 100 */
-  --apix-viz-above:     #C4703E;  /* index > 100 */
-  --apix-viz-extreme:   #A33B24;  /* surge flag */
+  --viz-below:       #14875a;
+  --viz-neutral:     #eef1f5;
+  --viz-above:       #c4321f;
 
-  --apix-series-1:      #1F3A34;
-  --apix-series-2:      #D9A441;
-  --apix-series-3:      #4E8C6A;
-  --apix-series-4:      #7C8D87;
-  --apix-series-5:      #C4703E;
-  --apix-series-6:      #5B7FA6;
-  /* CPI overlay is deliberately the one dashed, muted line: it is context,
-     not the subject of the chart. */
-  --apix-series-cpi:    #8A7CA8;
+  --series-1:        #0a72d8;
+  --series-2:        #f26a2e;
+  --series-3:        #14875a;
+  --series-4:        #7c3aed;
+  --series-5:        #0891b2;
+  --series-6:        #c4321f;
+  --series-7:        #b45309;
+  --series-8:        #64748b;
+  /* The CPI overlay is the one dashed, muted line: it is context, not subject. */
+  --series-cpi:      #94a3b8;
 
-  /* --- status --- */
-  --apix-ok:            #4E8C6A;
-  --apix-warn:          #D9A441;
-  --apix-error:         #A33B24;
-  --apix-seeded:        #8A7CA8;  /* "SEEDED DATA" badge, never green */
+  /* --- geometry --------------------------------------------------------- */
+  --r-sm:   6px;
+  --r:      10px;
+  --r-lg:   16px;
+  --r-pill: 999px;
 
-  /* --- geometry --- */
-  --apix-radius-sm:  8px;
-  --apix-radius:     14px;
-  --apix-radius-lg:  22px;   /* the large pill cards in the reference */
-  --apix-radius-pill: 999px;
+  --gap-xs: 4px;
+  --gap-sm: 8px;
+  --gap:    16px;
+  --gap-lg: 24px;
+  --gap-xl: 36px;
 
-  --apix-gap-xs: 4px;
-  --apix-gap-sm: 8px;
-  --apix-gap:    16px;
-  --apix-gap-lg: 24px;
-  --apix-gap-xl: 32px;
+  --shadow-sm:   0 1px 3px rgba(15, 30, 53, 0.07);
+  --shadow:      0 2px 10px rgba(15, 30, 53, 0.08);
+  --shadow-lift: 0 8px 28px rgba(15, 30, 53, 0.14);
+  --shadow-panel:0 10px 40px rgba(10, 31, 68, 0.18);
 
-  --apix-shadow-card: 0 2px 10px rgba(31, 58, 52, 0.06);
-  --apix-shadow-lift: 0 6px 22px rgba(31, 58, 52, 0.10);
+  --header-h: 60px;
+  --maxw: 1240px;
 
-  --apix-sidebar-w: 200px;
+  /* --- type ------------------------------------------------------------- */
+  --font: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  /* Tabular figures wherever an index value or a fare appears, so digits line
+     up column to column and a reader can scan a series vertically. */
+  --num-feat: "tnum" 1, "lnum" 1;
 
-  /* --- type --- */
-  --apix-font: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  /* Tabular figures are mandatory anywhere an index value appears, so digits
-     line up column-to-column and a reader can scan a series vertically. */
-  --apix-font-num: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --apix-num-feat: "tnum" 1, "lnum" 1;
-
-  --apix-fs-display: 34px;  /* headline APIx value */
-  --apix-fs-h1:      22px;
-  --apix-fs-h2:      17px;
-  --apix-fs-body:    14px;
-  --apix-fs-sm:      12px;
-  --apix-fs-label:   11px;  /* uppercase, letter-spaced, like the reference */
-
-  --apix-track-label: 0.08em;
+  --fs-display: 40px;
+  --fs-h1:      24px;
+  --fs-h2:      17px;
+  --fs-body:    14px;
+  --fs-sm:      12.5px;
+  --fs-xs:      11.5px;
+  --fs-label:   11px;
+  --track-label: 0.07em;
 }
 
-.apix-num {
-  font-family: var(--apix-font-num);
-  font-feature-settings: var(--apix-num-feat);
+.num {
+  font-feature-settings: var(--num-feat);
   font-variant-numeric: tabular-nums lining-nums;
 }

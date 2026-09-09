@@ -109,6 +109,19 @@ def export(out_dir: Path) -> dict[str, int]:
     """)
     write("leadtime_fares", fares_by_window)
 
+    # -- observed fare by route x window x DAY ------------------------------
+    # The fare calendar shows rupees rather than index points, and these are the
+    # rupees: an actual mean of observed fares for that sector, that booking
+    # window, on that day. Deriving a daily fare by scaling one overall mean by
+    # the day's index would have been easy and would have put a number on screen
+    # that nobody ever observed.
+    fares_daily = fetch("""
+        SELECT route_code, window_days, scrape_date, n, mean_fare, min_fare
+        FROM apix.v_leadtime_curve
+        ORDER BY route_code, window_days, scrape_date
+    """)
+    write("fares_daily", fares_daily)
+
     # -- fitted lead-time curve, per route ---------------------------------
     # Fitted here in Python and shipped as parameters, not refitted in the
     # browser. The model is covered by tests; a JavaScript reimplementation
