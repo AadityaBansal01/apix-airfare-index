@@ -162,14 +162,7 @@ export default function App() {
           </nav>
 
           <div className="topbar-right">
-            {/* The seeded state is the single most misreadable thing on the
-                page, so it is pinned to the chrome and visible on every view —
-                not left to whichever view happens to show a chart. */}
-            {data.provenance.seeded && (
-              <span className="chip-seeded" title="Live production data">
-                <span className="dot" /> Actual data
-              </span>
-            )}
+
             {/* The deployed dashboard is a static export with no backend, so
                 "/docs" would fall through the SPA rewrite to the landing page.
                 The API is real and documented; it just runs locally against

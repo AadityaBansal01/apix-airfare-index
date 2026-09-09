@@ -251,21 +251,7 @@ export default function PlainEnglish({ data, onStart }) {
           </div>
         </div>
 
-        {data.provenance?.seeded && (
-          <div className="plain-limit plain-limit-loud">
-            <div className="plain-limit-icon" aria-hidden="true">📈</div>
-            <div>
-              <h3>These are real numbers, reflecting actual prices</h3>
-              <p>
-                Every figure on this site is computed from{" "}
-                {Number(data.provenance.seeded_fare_rows || 0).toLocaleString("en-IN")}{" "}
-                live fares, used to track real-time price movements. The
-                machinery is real and tested. The prices are real. Everything here
-                describes what Indian air fares actually did.
-              </p>
-            </div>
-          </div>
-        )}
+
       </section>
 
 

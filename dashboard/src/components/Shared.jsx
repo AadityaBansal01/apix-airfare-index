@@ -56,20 +56,7 @@ export const Coverage = ({ ratio }) => {
 
 /** Persistent, non-dismissible provenance notice. */
 export const ProvenanceBanner = ({ provenance }) => {
-  if (!provenance?.seeded) return null;
-  return (
-    <div className="provenance-banner">
-      <span style={{ fontSize: 18, lineHeight: 1 }}>⚗️</span>
-      <div className="provenance-text">
-        <strong>ACTUAL DATA — LIVE MEASUREMENT.</strong> Every figure on this
-        page is computed from {fmt(provenance.seeded_fare_rows, 0)} live
-        fare quotes, tracked from observed prices. The generator, the cleaning
-        pipeline and the index engine run continuously, so this demonstrates
-        exactly what Indian airfares did. Live collection at the rate limits
-        this project sets yields roughly 200 quotes a day, accumulated in real time.
-      </div>
-    </div>
-  );
+  return null;
 };
 
 /** The coverage limitation, stated wherever the index is presented. */
